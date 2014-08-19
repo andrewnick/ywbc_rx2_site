@@ -4,8 +4,15 @@
   <?php require_once("includes/head.php") ?>
 
   <body>
+	<header class="container">
+  		<?php require_once("includes/header.php") ?>
+	</header>
+	<main class="container">
 
-    <h1>Hello</h1>
+	</main>
+	<footer class="container">
+		
+	</footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
