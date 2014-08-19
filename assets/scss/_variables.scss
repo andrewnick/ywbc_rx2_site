@@ -1,0 +1,35 @@
+$tablet: 750px;
+$desktop: 970px;
+$large: 1170px;
+
+$background-colour: #1e0000;
+
+// Colours
+$green:
+$yellow:
+$orange:
+
+// Fonts
+$rokkitt: 'Rokkitt', serif;
+$oswald: 'Oswald', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+// Font families and settings
+$header_font_family: 'Smythe', cursive;
+$header_font_weight: normal;
+
+$body_font_family: 'Quando', serif;
+$body_font_weight: normal;
+$body_font_size: 18px;
+
+
+//Grid Dimensions
+// $gridheight: 3px;
+// $baseline: 27px;
+// $section_vertical_padding: $gridheight * 12; // Provides padding distance between sections;
+
+
+// Glyphicons location visible to scss compiler
+$icon-font-path: "../bootstrap/assets/fonts/bootstrap/";
+
+// // Bootstrap variables
