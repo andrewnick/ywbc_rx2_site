@@ -1,0 +1,16 @@
+.hero_background {
+	background-image: url("../images/desktop_home_1.png");
+	height: 750px;
+
+	min-height: 100%;
+
+	width: 100%;
+	//height:auto;
+}
+
+.hero_title {
+	margin-top: 280px;
+	font-family: $oswald;
+	font-weight: $bold;
+	font-size: 95px;
+}

@@ -1,8 +1,12 @@
 .nav_item {
-	// padding-
+
 	padding-bottom: 18px;
-	// height: 50px;
-	display: inline-block;	
+
+}
+
+.nav_logo {
+	position: absolute;
+	top: 218px;
 }
 
 img {
@@ -10,5 +14,7 @@ img {
 }
 
 .nav_container {
-	//float: right;
+
+	@include clearfix;
+	padding-top: 243px;
 }

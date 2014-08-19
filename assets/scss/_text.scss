@@ -2,10 +2,25 @@ body {
 	// font-size: 62.5%;
 }
 
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+
+	color: white;
+	font-family: $oswald;
+	font-weight: $bold;
+	font-size: 95px;
+}
+
 h4 {
 	
 	&.text_nav_item {
 		
+		margin-top: 27px;
+		color: white;	
 		font-family: $oswald;
 		font-weight: 300;
 		font-size: 36.53px;

@@ -4,10 +4,12 @@
   <?php require_once("includes/head.php") ?>
 
   <body>
-	<header class="container">
+	
   		<?php require_once("includes/header.php") ?>
-	</header>
-	<main class="container">
+
+  <main>
+
+      <?php require_once("includes/content-hero.php") ?>
 
 	</main>
 	<footer class="container">

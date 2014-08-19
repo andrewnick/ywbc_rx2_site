@@ -8233,16 +8233,48 @@ button.close {
 /* line 1, ../scss/_nav.scss */
 .nav_item {
   padding-bottom: 18px;
-  display: inline-block;
 }
 
-/* line 8, ../scss/_nav.scss */
+/* line 7, ../scss/_nav.scss */
+.nav_logo {
+  position: absolute;
+  top: 218px;
+}
+
+/* line 12, ../scss/_nav.scss */
 img {
   max-height: 100%;
 }
 
-/* line 7, ../scss/_text.scss */
+/* line 16, ../scss/_nav.scss */
+.nav_container {
+  padding-top: 243px;
+}
+/* line 11, ../scss/_mixins.scss */
+.nav_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 5, ../scss/_text.scss */
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../scss/_text.scss */
+h1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 95px;
+}
+
+/* line 20, ../scss/_text.scss */
 h4.text_nav_item {
+  margin-top: 27px;
+  color: white;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 36.53px;
@@ -8250,6 +8282,21 @@ h4.text_nav_item {
 
 /* line 1, ../scss/_background.scss */
 .header_background {
-  height: 100px;
   background-color: black;
+}
+
+/* line 1, ../scss/_hero.scss */
+.hero_background {
+  background-image: url("../images/desktop_home_1.png");
+  height: 750px;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 11, ../scss/_hero.scss */
+.hero_title {
+  margin-top: 280px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 95px;
 }
