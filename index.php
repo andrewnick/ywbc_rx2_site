@@ -15,6 +15,8 @@
 
       <?php require_once("includes/content-product.php") ?>
 
+      <?php require_once("includes/content-map.php") ?>
+
       <?php require_once("includes/content-contact.php") ?>
 
     </main>

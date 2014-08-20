@@ -8234,7 +8234,7 @@ button.close {
 .nav_item {
   padding-bottom: 9px;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 1, ../scss/_nav.scss */
   .nav_item {
     padding-bottom: 18px;
@@ -8246,7 +8246,7 @@ button.close {
   position: absolute;
   top: 96px;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 11, ../scss/_nav.scss */
   .nav_logo {
     top: 218px;
@@ -8268,7 +8268,7 @@ img {
   display: table;
   clear: both;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 25, ../scss/_nav.scss */
   .nav_container {
     padding-top: 243px;
@@ -8294,7 +8294,7 @@ h1 {
   font-size: 26px;
   margin-top: 47px;
 }
-@media screen and (min-width: large) {
+@media screen and (min-width: 1170px) {
   /* line 15, ../scss/_text.scss */
   h1 {
     margin-top: 280px;
@@ -8344,7 +8344,7 @@ h3.product_title {
   font-weight: 700;
   font-size: 20px;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 66, ../scss/_text.scss */
   h3.product_title {
     margin-top: 60px;
@@ -8368,7 +8368,7 @@ h3.product_link {
   display: inline-block;
   text-shadow: 3px 4px 0px black;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 90, ../scss/_text.scss */
   h3.product_link {
     margin-top: 59px;
@@ -8384,37 +8384,26 @@ h3.product_link.product_link-footwear {
 h3.product_link.product_link-wodwear {
   color: #f79621;
 }
-
-/* line 118, ../scss/_text.scss */
-h4.text_nav_item {
-  margin-top: 16px;
+/* line 115, ../scss/_text.scss */
+h3.contact_title {
+  text-transform: uppercase;
   color: white;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-}
-@media screen and (min-width: tablet) {
-  /* line 118, ../scss/_text.scss */
-  h4.text_nav_item {
-    margin-top: 27px;
-    font-weight: 300;
-    font-size: 36.53px;
-  }
+  font-size: 35px;
 }
 
-/* line 135, ../scss/_text.scss */
+/* line 130, ../scss/_text.scss */
 h5 {
   color: black;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
-/* line 142, ../scss/_text.scss */
+/* line 137, ../scss/_text.scss */
 h5.hero_text-footer {
   color: white;
 }
 
-/* line 147, ../scss/_text.scss */
+/* line 142, ../scss/_text.scss */
 p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -8422,26 +8411,73 @@ p {
   font-size: 13px;
   text-align: center;
 }
-/* line 161, ../scss/_text.scss */
+/* line 151, ../scss/_text.scss */
 p.contact_text {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
-/* line 167, ../scss/_text.scss */
+/* line 157, ../scss/_text.scss */
+p.contact_label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 51px;
+}
+/* line 163, ../scss/_text.scss */
+p.contact_label.contact_label-email {
+  line-height: 1.1;
+}
+@media screen and (min-width: 750px) {
+  /* line 168, ../scss/_text.scss */
+  p.intro_text {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+  }
+}
+/* line 177, ../scss/_text.scss */
 p.footer_reference {
+  color: white;
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 13px;
 }
-@media screen and (min-width: tablet) {
-  /* line 147, ../scss/_text.scss */
-  p {
-    color: black;
+@media screen and (min-width: 750px) {
+  /* line 177, ../scss/_text.scss */
+  p.footer_reference {
+    margin-top: 63px;
+  }
+}
+
+/* line 191, ../scss/_text.scss */
+a {
+  margin-top: 16px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+@media screen and (min-width: 750px) {
+  /* line 191, ../scss/_text.scss */
+  a {
+    margin-top: 27px;
+    font-weight: 300;
+    font-size: 36.53px;
+  }
+  /* line 204, ../scss/_text.scss */
+  a.nav_item_text_footer {
+    font-size: 22px;
+  }
+  /* line 208, ../scss/_text.scss */
+  a.contact_email {
+    margin-top: 5px;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff56c;
   }
 }
 
@@ -8456,7 +8492,7 @@ p.footer_reference {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 1, ../scss/_hero.scss */
   .hero_background {
     background-image: url("../images/desktop_home_1.png");
@@ -8509,7 +8545,7 @@ p.footer_reference {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 1, ../scss/_product.scss */
   .product_background {
     background-image: url("../images/desktop_home_3.png");
@@ -8529,7 +8565,7 @@ p.footer_reference {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 750px) {
   /* line 1, ../scss/_contact.scss */
   .contact_background {
     background-image: url("../images/desktop_home_8.png");
@@ -8542,6 +8578,11 @@ p.footer_reference {
   padding-bottom: 40px;
 }
 
+/* line 17, ../scss/_contact.scss */
+.contact_social_link {
+  margin-top: 36px;
+}
+
 /* line 1, ../scss/_footer.scss */
 .footer_background {
   background-color: black;
@@ -8550,4 +8591,24 @@ p.footer_reference {
 /* line 5, ../scss/_footer.scss */
 .footer_container {
   padding-bottom: 87px;
+}
+
+/* line 1, ../scss/_map.scss */
+.map_embed {
+  padding-bottom: 25%;
+}
+
+/* line 5, ../scss/_map.scss */
+.map_overlay {
+  background: transparent;
+  position: relative;
+  z-index: 20;
+  width: 2000px;
+  height: 2000px;
+}
+/* line 11, ../scss/_mixins.scss */
+.map_overlay:after {
+  content: "";
+  display: table;
+  clear: both;
 }

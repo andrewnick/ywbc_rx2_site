@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	@include respond(tablet) {
+	@include respond($tablet) {
 		background-image: url("../images/desktop_home_8.png");
 	}	
 }
@@ -12,4 +12,8 @@
 .contact_container {
 	padding-top: 54px;
 	padding-bottom: 40px;
+}
+
+.contact_social_link {
+	margin-top: 36px;
 }

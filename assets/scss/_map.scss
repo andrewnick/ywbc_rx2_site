@@ -1,0 +1,12 @@
+.map_embed {
+	padding-bottom: 25%;
+}
+
+.map_overlay {
+	@include clearfix(); 
+	background: transparent;
+	position:relative; 
+	z-index: 20;
+	width:2000px;
+	height:2000px;
+}

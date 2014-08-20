@@ -21,7 +21,7 @@ h1 {
 	margin-top: 47px;
 
 
-	@include respond (large) {
+	@include respond ($large) {
 		margin-top: 280px;
 		font-size: 97px;
 	}
@@ -73,7 +73,7 @@ h3 {
 		font-weight: $bold;
 		font-size: 20px;
 
-		@include respond(tablet) {
+		@include respond($tablet) {
 			margin-top: 60px;
 			margin-bottom: 54px;
 			font-size: 41px;
@@ -97,7 +97,7 @@ h3 {
 		
 		text-shadow: 3px 4px 0px rgba(0, 0, 0, 1);
 
-		@include respond(tablet){
+		@include respond($tablet){
 			margin-top: 59px;
 			margin-bottom: 82px;
 			font-size: 47px;
@@ -111,25 +111,20 @@ h3 {
 			color: $orange;
 		}
 	}
+
+	&.contact_title {
+		// margin-top: 29px;
+		// margin-bottom: 70px;
+		text-transform: uppercase;
+		color: white;
+		font-size: 35px;
+	}
 }
 
 h4 {
 	
-	&.text_nav_item {
-		
-		margin-top: 16px;
-		color: white;	
-		font-family: $oswald;
-		font-weight: $light;
-		font-size: 16px;
 
-		@include respond(tablet){
-			margin-top: 27px;
-			font-weight: 300;
-			font-size: 36.53px;
-		}
 
-	}
 }
 
 h5 {
@@ -153,31 +148,72 @@ p {
 	text-align: center;
 
 
-	&.hero_text {
-		// padding-left: 108px;
-		// padding-right: 108px;
-	}
-
 	&.contact_text{
 		text-align: center;
 		font-family: $oswald;
 		font-weight: $normal;
 	}
 
-	&.footer_reference {
+	&.contact_label {
+		font-size: 14px;
+		font-weight: $bold;
+		text-align: left;
+		line-height: 51px;
+
+		&.contact_label-email {
+			line-height: 1.1;
+		}
+	}
+
+	&.intro_text {
+		@include respond($tablet){
+			color: black;
+			font-family: $roboto;
+			font-weight: $normal;
+			font-size: 27px;
+		}
+	}
+
+	&.footer_reference {		
+		color:  white;
 		text-align: center;
 		font-family: $oswald;
 		font-weight: $light;
 		font-size: 13px;
+
+		@include respond($tablet){
+			margin-top: 63px;
+		}
 	}
 
-	@include respond(tablet){
-		color: black;
-		font-family: $roboto;
-		font-weight: $normal;
-		font-size: 27px;
-	}
 }
 
+a {
+	
+	margin-top: 16px;
+	color: white;	
+	font-family: $oswald;
+	font-weight: $light;
+	font-size: 16px;
+
+	@include respond($tablet){
+		margin-top: 27px;
+		font-weight: $light;
+		font-size: 36.53px;
+
+		&.nav_item_text_footer {
+			font-size: 22px;
+		}
+
+		&.contact_email {
+			margin-top: 5px;
+			font-family: $roboto;
+			font-weight: $bold;
+			font-size: 14px;
+			color: $yellow;
+		}
+	}
+	
+}
 
 

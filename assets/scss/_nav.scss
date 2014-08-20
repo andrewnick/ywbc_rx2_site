@@ -2,7 +2,7 @@
 
 	 padding-bottom: 9px;
 
-	 @include respond (tablet) {
+	 @include respond ($tablet) {
 	 	padding-bottom: 18px;
 	 }
 
@@ -13,7 +13,7 @@
 	position: absolute;
 	top: $header_padding_top_m + 9px;
 
-	@include respond (tablet) {
+	@include respond ($tablet) {
 	 	top: 218px;
 	}
 }
@@ -26,8 +26,8 @@ img {
 
 	@include clearfix;
 	padding-top: $header_padding_top_m;
-	@include respond (tablet) {
-			padding-top: 243px;
+	@include respond ($tablet) {
+		padding-top: 243px;
 	}
 
 }

@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	@include respond(tablet) {
+	@include respond($tablet) {
 		background-image: url("../images/desktop_home_3.png");
 	}	
 }
