@@ -1,0 +1,15 @@
+.contact_background {
+
+	background-image: url("../images/desktop_home_8.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@include respond(tablet) {
+		background-image: url("../images/desktop_home_8.png");
+	}	
+}
+
+.contact_container {
+	padding-top: 54px;
+	padding-bottom: 40px;
+}

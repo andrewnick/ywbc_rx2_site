@@ -7,7 +7,7 @@
 	
   		<?php require_once("includes/header.php") ?>
 
-  <main>
+    <main>
 
       <?php require_once("includes/content-hero.php") ?>
       
@@ -15,10 +15,11 @@
 
       <?php require_once("includes/content-product.php") ?>
 
-	</main>
-	<footer class="container">
-		
-	</footer>
+      <?php require_once("includes/content-contact.php") ?>
+
+    </main>
+
+    <?php require_once("includes/footer.php") ?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

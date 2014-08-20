@@ -154,8 +154,21 @@ p {
 
 
 	&.hero_text {
-		padding-left: 108px;
-		padding-right: 108px;
+		// padding-left: 108px;
+		// padding-right: 108px;
+	}
+
+	&.contact_text{
+		text-align: center;
+		font-family: $oswald;
+		font-weight: $normal;
+	}
+
+	&.footer_reference {
+		text-align: center;
+		font-family: $oswald;
+		font-weight: $light;
+		font-size: 13px;
 	}
 
 	@include respond(tablet){

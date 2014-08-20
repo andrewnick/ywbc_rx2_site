@@ -8422,10 +8422,18 @@ p {
   font-size: 13px;
   text-align: center;
 }
-/* line 156, ../scss/_text.scss */
-p.hero_text {
-  padding-left: 108px;
-  padding-right: 108px;
+/* line 161, ../scss/_text.scss */
+p.contact_text {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+/* line 167, ../scss/_text.scss */
+p.footer_reference {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
 }
 @media screen and (min-width: tablet) {
   /* line 147, ../scss/_text.scss */
@@ -8461,6 +8469,12 @@ p.hero_text {
   padding-bottom: 45px;
 }
 
+/* line 16, ../scss/_hero.scss */
+.hero_text_container {
+  width: 200px;
+  margin: 0 auto;
+}
+
 /* line 1, ../scss/_intro.scss */
 .intro_background {
   background-image: url("../images/desktop_home_2.png");
@@ -8491,7 +8505,7 @@ p.hero_text {
 
 /* line 1, ../scss/_product.scss */
 .product_background {
-  background-image: url("../images/mobile_home_3_02.png");
+  background-image: url("../images/desktop_home_3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8507,4 +8521,33 @@ p.hero_text {
   background-image: url("../images/desktop_home_4.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* line 1, ../scss/_contact.scss */
+.contact_background {
+  background-image: url("../images/desktop_home_8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: tablet) {
+  /* line 1, ../scss/_contact.scss */
+  .contact_background {
+    background-image: url("../images/desktop_home_8.png");
+  }
+}
+
+/* line 12, ../scss/_contact.scss */
+.contact_container {
+  padding-top: 54px;
+  padding-bottom: 40px;
+}
+
+/* line 1, ../scss/_footer.scss */
+.footer_background {
+  background-color: black;
+}
+
+/* line 5, ../scss/_footer.scss */
+.footer_container {
+  padding-bottom: 87px;
 }
