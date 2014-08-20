@@ -10,6 +10,10 @@
   <main>
 
       <?php require_once("includes/content-hero.php") ?>
+      
+      <?php require_once("includes/content-intro.php") ?>
+
+      <?php require_once("includes/content-product.php") ?>
 
 	</main>
 	<footer class="container">

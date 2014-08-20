@@ -1,12 +1,21 @@
 .nav_item {
 
-	padding-bottom: 18px;
+	 padding-bottom: 9px;
+
+	 @include respond (tablet) {
+	 	padding-bottom: 18px;
+	 }
 
 }
 
 .nav_logo {
+
 	position: absolute;
-	top: 218px;
+	top: $header_padding_top_m + 9px;
+
+	@include respond (tablet) {
+	 	top: 218px;
+	}
 }
 
 img {
@@ -16,5 +25,9 @@ img {
 .nav_container {
 
 	@include clearfix;
-	padding-top: 243px;
+	padding-top: $header_padding_top_m;
+	@include respond (tablet) {
+			padding-top: 243px;
+	}
+
 }

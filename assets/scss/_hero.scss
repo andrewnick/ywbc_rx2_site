@@ -1,16 +1,15 @@
 .hero_background {
-	background-image: url("../images/desktop_home_1.png");
-	height: 750px;
+		background-image: url("../images/mobile-home-1.png");
+		background-repeat: no-repeat;
+		background-size: cover;
 
-	min-height: 100%;
-
-	width: 100%;
-	//height:auto;
+	@include respond (tablet) {
+			background-image: url("../images/desktop_home_1.png");
+	}
 }
 
-.hero_title {
-	margin-top: 280px;
-	font-family: $oswald;
-	font-weight: $bold;
-	font-size: 95px;
+.hero_container {
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
+

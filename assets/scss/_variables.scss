@@ -5,8 +5,8 @@ $large: 1170px;
 $background-colour: #1e0000;
 
 // Colours
-$yellow: #f79621;
-$orange: #fff56c;
+$yellow: #fff56c ;
+$orange: #f79621;
 $teal: #27beb8;
 
 // Fonts
@@ -17,6 +17,7 @@ $roboto: 'Roboto', sans-serif;
 // Weights
 $light: 300;
 $normal: 400;
+$medium: 500;
 $bold: 700;
 
 // Font families and settings
@@ -33,6 +34,8 @@ $body_font_size: 18px;
 // $baseline: 27px;
 // $section_vertical_padding: $gridheight * 12; // Provides padding distance between sections;
 
+//Header padding
+$header_padding_top_m: 87px;
 
 // Glyphicons location visible to scss compiler
 $icon-font-path: "../bootstrap/assets/fonts/bootstrap/";

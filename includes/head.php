@@ -9,10 +9,14 @@
   <title>RX&sup2</title>
 
   <!-- Google Fonts Import -->
-  <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Oswald:400,700,300|Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Oswald:400,700,300|Roboto:400,500,700' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap core CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <script type="text/javascript" src="assets/js/jquery.js"></script>  
+  <script type="text/javascript" src="assets/js/main.js"></script>
+
 
   <!-- add Modernizr -->
   <script src="assets/js/vendor/modernizr-2.8.0.min.js"></script>
