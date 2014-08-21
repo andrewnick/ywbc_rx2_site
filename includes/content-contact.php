@@ -37,7 +37,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row hidden-xs">
 			<div class="col-sm-offset-1 col-sm-5">
 				<p class="contact_label contact_label-email">You can also email us at</p>
 				<a href="#email" class="contact_email">Hello@rx2apparel.com</a>

@@ -8,7 +8,7 @@
 										 yourself into challenge after challenge.</br>
 										 And, of course, you want to look badass. </p>
 
-			 <h5 class="intro_text col-lg-12"><strong>Yea, we’ve  been  there</strong></h5>
+			 <h5 class="intro_text intro_text_footer col-lg-12"><strong>Yea, we’ve  been  there</strong></h5>
 		</div>
 	</div>		
 </section>
