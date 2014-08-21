@@ -1,0 +1,26 @@
+.foothero_background {
+	background-image: url("../images/desktop_shoes_1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	// @include respond ($tablet) {
+	// 		background-image: url("../images/desktop_home_1.png");
+	// }
+}
+
+.footerhero_text_container-sm {
+	padding-top: 91px;
+}
+
+.footerhero_text_container-lg {
+	margin-top:0px;
+	padding-top: 284px;
+	padding-bottom: 269px;
+}
+
+
+.foothero_img {
+	padding-top: 21px;
+	padding-bottom: 36px;
+}

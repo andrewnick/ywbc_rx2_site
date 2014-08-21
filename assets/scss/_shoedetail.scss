@@ -1,0 +1,39 @@
+.shoedetail_background{
+
+} 
+
+.shoedetail_container {
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.shoedetail_background_item-1 {
+	background-color: $teal;
+}
+
+.shoedetail_background_item-2 {
+	background-color: $orange;
+}
+
+.shoedetail_background_item-3 {
+	background-color: $yellow;
+}
+
+.shoedetail_background_item-4 {
+	background-color: black;
+}
+
+.shoedetail_text {
+
+		color:white;
+		text-transform: uppercase;
+		font-family: $rokkitt;
+		font-weight: $bold;
+
+		&.shoedetail_text-item3 {
+			color: black;
+		}
+}
+

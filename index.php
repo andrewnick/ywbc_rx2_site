@@ -1,3 +1,34 @@
+<?php 
+
+ 
+    
+    $pages = array(
+
+      'home' => 'home',
+      'footwear' => 'footwear'
+    );
+
+    function generatePageContent($reqContent, $pages){
+
+        $content = "";
+
+        if(!isset($_GET['pages'])){
+
+          $content = $pages['home'][$reqContent];
+
+        } elseif(array_key_exists($_GET['pages'], $pages)) {
+
+          $content = $pages[$_GET['pages']][$reqContent];
+
+        }
+
+        return $content;
+    }
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   
@@ -9,21 +40,29 @@
 
     <main>
 
-      <?php require_once("includes/content-hero.php") ?>
-      
-      <?php require_once("includes/content-intro.php") ?>
+  <?php 
+      if(isset($_GET['pages'])){
+         
+         $page = $_GET['pages'];
+         $pageURI = "includes/content-".$page.".php";
 
-      <?php require_once("includes/content-product.php") ?>
+         if (file_exists($pageURI)) {
 
-       <?php require_once("includes/content-durability.php") ?>
+            require_once ($pageURI);
 
-      <?php require_once("includes/content-comfort.php") ?>
+         }else {
 
-      <?php require_once("includes/content-badass.php") ?>
+            require_once ('includes/content-404.php');
+         }
+         
+      } else {  
 
-      <?php require_once("includes/content-testimony.php") ?>
+        //require_once ('includes/content-home.php');
+        require_once ('includes/content-footwear.php');
 
-      <?php require_once("includes/content-map.php") ?>
+      }   
+  ?>
+
 
       <?php require_once("includes/content-contact.php") ?>
 

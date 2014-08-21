@@ -5,16 +5,16 @@
 	 	padding-bottom: 18px;
 	 }
 
-}
+} 
 
 .nav_logo {
 
-	// position: relative;
-	// top: $header_padding_top_m + 9px;
+	position: relative;
+	top: $header_padding_top_m + 9px;
 
-	// @include respond ($tablet) {
-	//  	top: 218px;
-	// }
+	@include respond ($tablet) {
+	 	top: 218px;
+	}
 }
 
 img {

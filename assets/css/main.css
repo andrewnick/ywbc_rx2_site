@@ -8264,6 +8264,18 @@ button.close {
   }
 }
 
+/* line 10, ../scss/_nav.scss */
+.nav_logo {
+  position: relative;
+  top: 96px;
+}
+@media screen and (min-width: 750px) {
+  /* line 10, ../scss/_nav.scss */
+  .nav_logo {
+    top: 218px;
+  }
+}
+
 /* line 20, ../scss/_nav.scss */
 img {
   max-height: 100%;
@@ -8537,8 +8549,36 @@ span.testimony_text_heading-2 {
   font-family: "Rokkitt", serif;
   font-weight: 700;
 }
+/* line 259, ../scss/_text.scss */
+span.foothero_line-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+}
+/* line 267, ../scss/_text.scss */
+span.foothero_line-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Rokkitt", serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+}
+/* line 275, ../scss/_text.scss */
+span.foothero_line-3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+/* line 281, ../scss/_text.scss */
+span.foothero_line-4 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
 
-/* line 260, ../scss/_text.scss */
+/* line 288, ../scss/_text.scss */
 p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -8546,25 +8586,25 @@ p {
   font-size: 13px;
   text-align: center;
 }
-/* line 269, ../scss/_text.scss */
+/* line 297, ../scss/_text.scss */
 p.contact_text {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
-/* line 275, ../scss/_text.scss */
+/* line 303, ../scss/_text.scss */
 p.contact_label {
   font-size: 14px;
   font-weight: 700;
   text-align: left;
   line-height: 51px;
 }
-/* line 281, ../scss/_text.scss */
+/* line 309, ../scss/_text.scss */
 p.contact_label.contact_label-email {
   line-height: 1.1;
 }
 @media screen and (min-width: 750px) {
-  /* line 286, ../scss/_text.scss */
+  /* line 314, ../scss/_text.scss */
   p.intro_text {
     color: black;
     font-family: "Roboto", sans-serif;
@@ -8572,7 +8612,7 @@ p.contact_label.contact_label-email {
     font-size: 23px;
   }
 }
-/* line 297, ../scss/_text.scss */
+/* line 325, ../scss/_text.scss */
 p.footer_reference {
   color: white;
   text-align: center;
@@ -8581,47 +8621,47 @@ p.footer_reference {
   font-size: 13px;
 }
 @media screen and (min-width: 750px) {
-  /* line 297, ../scss/_text.scss */
+  /* line 325, ../scss/_text.scss */
   p.footer_reference {
     margin-top: 63px;
   }
 }
-/* line 309, ../scss/_text.scss */
+/* line 337, ../scss/_text.scss */
 p.testimony_text_body {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
 }
-/* line 315, ../scss/_text.scss */
+/* line 343, ../scss/_text.scss */
 p.testimony_text_body.testimony_text_body_person {
   font-size: 15px;
 }
-/* line 320, ../scss/_text.scss */
+/* line 348, ../scss/_text.scss */
 p.badass_text {
   text-align: right;
   font-weight: 400;
   font-size: 20px;
 }
-/* line 326, ../scss/_text.scss */
+/* line 354, ../scss/_text.scss */
 p.comfort_blurb {
   text-align: left;
   font-size: 15px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 332, ../scss/_text.scss */
+/* line 360, ../scss/_text.scss */
 p.comfort_blurb.comfort_blurb_expanded {
   font-family: roboto;
   font-weight: 300;
   padding-top: 25px;
 }
-/* line 338, ../scss/_text.scss */
+/* line 366, ../scss/_text.scss */
 p.comfort_blurb.durability_text {
   text-align: right;
 }
 
-/* line 345, ../scss/_text.scss */
+/* line 373, ../scss/_text.scss */
 a {
   margin-top: 16px;
   color: white;
@@ -8629,23 +8669,23 @@ a {
   font-weight: 300;
   font-size: 16px;
 }
-/* line 353, ../scss/_text.scss */
+/* line 381, ../scss/_text.scss */
 a.nav_item_text_footer {
   margin-top: -5px;
   font-size: 22px;
 }
 @media screen and (min-width: 750px) {
-  /* line 345, ../scss/_text.scss */
+  /* line 373, ../scss/_text.scss */
   a {
     margin-top: 27px;
     font-weight: 300;
     font-size: 36.53px;
   }
-  /* line 363, ../scss/_text.scss */
+  /* line 391, ../scss/_text.scss */
   a.nav_item_text_footer {
     font-size: 22px;
   }
-  /* line 368, ../scss/_text.scss */
+  /* line 396, ../scss/_text.scss */
   a.contact_email {
     margin-top: 5px;
     font-family: "Roboto", sans-serif;
@@ -8790,6 +8830,11 @@ a.nav_item_text_footer {
 }
 
 /* line 5, ../scss/_map.scss */
+.map_embed-2 {
+  padding-bottom: 33%;
+}
+
+/* line 9, ../scss/_map.scss */
 .map_overlay {
   background: transparent;
   position: relative;
@@ -8863,4 +8908,68 @@ a.nav_item_text_footer {
   padding-left: 48px;
   padding-top: 108px;
   padding-bottom: 138px;
+}
+
+/* line 1, ../scss/_foothero.scss */
+.foothero_background {
+  background-image: url("../images/desktop_shoes_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 12, ../scss/_foothero.scss */
+.footerhero_text_container-sm {
+  padding-top: 91px;
+}
+
+/* line 16, ../scss/_foothero.scss */
+.footerhero_text_container-lg {
+  margin-top: 0px;
+  padding-top: 284px;
+  padding-bottom: 269px;
+}
+
+/* line 23, ../scss/_foothero.scss */
+.foothero_img {
+  padding-top: 21px;
+  padding-bottom: 36px;
+}
+
+/* line 5, ../scss/_shoedetail.scss */
+.shoedetail_container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 12, ../scss/_shoedetail.scss */
+.shoedetail_background_item-1 {
+  background-color: #27beb8;
+}
+
+/* line 16, ../scss/_shoedetail.scss */
+.shoedetail_background_item-2 {
+  background-color: #f79621;
+}
+
+/* line 20, ../scss/_shoedetail.scss */
+.shoedetail_background_item-3 {
+  background-color: #fff56c;
+}
+
+/* line 24, ../scss/_shoedetail.scss */
+.shoedetail_background_item-4 {
+  background-color: black;
+}
+
+/* line 28, ../scss/_shoedetail.scss */
+.shoedetail_text {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Rokkitt", serif;
+  font-weight: 700;
+}
+/* line 35, ../scss/_shoedetail.scss */
+.shoedetail_text.shoedetail_text-item3 {
+  color: black;
 }
