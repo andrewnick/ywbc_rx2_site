@@ -15,9 +15,11 @@ var secInYear = secInWeek*52;
 
 $(document).ready( function(){
 
-	$('.block_text').slabText();
+	
 
 	getTwitterFeed();
+
+	$('.block_text').slabText();
 
 	// Set the hight of the background image depending on the width of the section
 	//$('.hero_background').css('height', setImageHeight( hero_image_large_ratio , $('.hero_background')));
@@ -31,11 +33,39 @@ function getTwitterFeed (){
 		var tweetTime;
 		var currentTime;
 		var timeDifference;
-		$.getJSON('twitter.json', function(feed){
-				console.log(feed);
 
-				var tweetedTime = getTimeSinceTweet(feed.created_at);
-				console.log(tweetedTime);
+		$.getJSON('twitter.json', function(feedTweet){
+
+				console.log(feedTweet);
+
+				// var tweetedTime = getTimeSinceTweet(feedTweet.created_at);
+				// var allTweets_head = '<section class="contact_tweets_container">';
+				// var allTweets_foot = '</section>';
+
+				// $.each(feed, function (i, feedTweet) {
+
+					var tweet = '<article class="contact_tweet"><div class="row">' + 
+								'<h4 class="contact_twitterFeed_name col-xs-3">' + feedTweet.user.name + '</h4>' +
+										'<h6 class="contact_twitterFeed_username col-xs-8">@'+feedTweet.user.screen_name+'</h6>' +
+									'</div>' +
+									'<div class="row">' +
+										'<p class="contact_twitterFeed_text col-sm-12">'+feedTweet.text+'</p>' +
+									'</div>' +
+									'<div class="row">' +
+										'<p class="contact_twitterFeed_text col-sm-12">' + feedTweet.created_at + '</p>' +
+									'</div>' +
+								'</article>';
+
+					$('.contact_tweets_container').append(tweet);
+					$('.contact_tweets_container').append(tweet);
+					$('.contact_tweets_container').append(tweet);
+
+				// });				
+
+				console.log(tweet);
+
+				
+
 		});
 
 

@@ -1,7 +1,7 @@
 <section class="hero_background">
 	<div class="hero_container container">
 		<div class="row">			
-			<h1 class="hero_text hero_title col-xs-12 ">BE THE MACHINE</h1>
+			<h1 class="hero_text hero_title col-xs-12 ">Be the machine</h1>
 			<h2 class="hero_text hero_text-firstline col-xs-12 visible-xs">You're pushing</h2>
 			<h2 class="hero_text hero_text-secondline col-xs-12  visible-xs">Your body</h2>
 			<h2 class="hero_text hero_text-thirdline col-xs-12  visible-xs">to the limit</h2>

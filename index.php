@@ -1,34 +1,3 @@
-<?php 
-
- 
-    
-    $pages = array(
-
-      'home' => 'home',
-      'footwear' => 'footwear'
-    );
-
-    function generatePageContent($reqContent, $pages){
-
-        $content = "";
-
-        if(!isset($_GET['pages'])){
-
-          $content = $pages['home'][$reqContent];
-
-        } elseif(array_key_exists($_GET['pages'], $pages)) {
-
-          $content = $pages[$_GET['pages']][$reqContent];
-
-        }
-
-        return $content;
-    }
-
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   
@@ -40,14 +9,13 @@
 
     <main>
 
-  <?php 
+    <?php 
+
       if(isset($_GET['pages'])){
-         
          $page = $_GET['pages'];
-         $pageURI = "includes/content-".$page.".php";
+         $pageURI = "includes/".$page.".php";
 
          if (file_exists($pageURI)) {
-
             require_once ($pageURI);
 
          }else {
@@ -57,19 +25,19 @@
          
       } else {  
 
-        //require_once ('includes/content-home.php');
-        require_once ('includes/content-footwear.php');
+        require_once ('includes/home.php');
 
       }   
-  ?>
+    ?>
 
 
-      <?php require_once("includes/content-contact.php") ?>
+    <?php require_once("includes/content-contact.php") ?>
 
     </main>
 
     <?php require_once("includes/footer.php") ?>
-      <script type="text/javascript" src="assets/js/jquery.js"></script> 
+  
+  <script type="text/javascript" src="assets/js/jquery.js"></script> 
   <script type="text/javascript" src="assets/js/jquery.slabtext.js"></script>  
   <script type="text/javascript" src="assets/js/main.js"></script>
 

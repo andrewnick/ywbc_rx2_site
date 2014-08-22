@@ -8298,7 +8298,7 @@ img {
   }
 }
 
-/* line 34, ../scss/_nav.scss */
+/* line 37, ../scss/_nav.scss */
 .nav_item_img {
   padding-top: 27px;
 }
@@ -8336,51 +8336,63 @@ h2 {
   font-family: "Rokkitt", serif;
   font-weight: 400;
   font-size: 55px;
+  text-transform: uppercase;
 }
-/* line 37, ../scss/_text.scss */
+/* line 38, ../scss/_text.scss */
 h2.hero_text {
   color: white;
 }
-/* line 41, ../scss/_text.scss */
+/* line 42, ../scss/_text.scss */
 h2.hero_text.hero_text-firstline {
   font-size: 24px;
 }
-/* line 45, ../scss/_text.scss */
+/* line 46, ../scss/_text.scss */
 h2.hero_text.hero_text-secondline {
   font-size: 35px;
 }
-/* line 49, ../scss/_text.scss */
+/* line 50, ../scss/_text.scss */
 h2.hero_text.hero_text-thirdline {
   font-weight: 700;
   font-size: 28px;
 }
-/* line 55, ../scss/_text.scss */
+/* line 56, ../scss/_text.scss */
 h2.testimony_text_heading-1 {
   text-align: center;
-  text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 63, ../scss/_text.scss */
+/* line 62, ../scss/_text.scss */
 h2.comfort_title {
   line-height: 0.8;
   color: white;
-  text-transform: uppercase;
   font-weight: bold;
 }
-/* line 69, ../scss/_text.scss */
+/* line 67, ../scss/_text.scss */
 h2.comfort_title.durability_text {
   color: black;
 }
+/* line 72, ../scss/_text.scss */
+h2.shoeDesc_title {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 72px;
+}
+/* line 78, ../scss/_text.scss */
+h2.shoe_title {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+}
 
-/* line 77, ../scss/_text.scss */
+/* line 87, ../scss/_text.scss */
 h3 {
   color: black;
   font-family: "Rokkitt", serif;
   font-weight: 400;
   font-size: 49px;
 }
-/* line 84, ../scss/_text.scss */
+/* line 94, ../scss/_text.scss */
 h3.product_title {
   margin-top: 28px;
   margin-bottom: 17px;
@@ -8391,20 +8403,20 @@ h3.product_title {
   font-size: 20px;
 }
 @media screen and (min-width: 750px) {
-  /* line 84, ../scss/_text.scss */
+  /* line 94, ../scss/_text.scss */
   h3.product_title {
     margin-top: 60px;
     margin-bottom: 54px;
     font-size: 41px;
   }
 }
-/* line 101, ../scss/_text.scss */
+/* line 111, ../scss/_text.scss */
 h3.product_title.product_title-footer {
   margin-top: 29px;
   margin-bottom: 70px;
   font-size: 35px;
 }
-/* line 108, ../scss/_text.scss */
+/* line 118, ../scss/_text.scss */
 h3.product_link {
   text-align: center;
   margin-top: 20px;
@@ -8415,28 +8427,28 @@ h3.product_link {
   text-shadow: 3px 4px 0px black;
 }
 @media screen and (min-width: 750px) {
-  /* line 108, ../scss/_text.scss */
+  /* line 118, ../scss/_text.scss */
   h3.product_link {
     margin-top: 92px;
     margin-bottom: 82px;
     font-size: 47px;
   }
 }
-/* line 124, ../scss/_text.scss */
+/* line 134, ../scss/_text.scss */
 h3.product_link.product_link-footwear {
   color: #27beb8;
 }
-/* line 128, ../scss/_text.scss */
+/* line 138, ../scss/_text.scss */
 h3.product_link.product_link-wodwear {
   color: #f79621;
 }
-/* line 133, ../scss/_text.scss */
+/* line 143, ../scss/_text.scss */
 h3.contact_title {
   text-transform: uppercase;
   color: white;
   font-size: 35px;
 }
-/* line 141, ../scss/_text.scss */
+/* line 151, ../scss/_text.scss */
 h3.testimony_text_heading-2 {
   text-align: center;
   text-transform: uppercase;
@@ -8444,7 +8456,7 @@ h3.testimony_text_heading-2 {
   font-weight: 700;
   font-size: 46px;
 }
-/* line 149, ../scss/_text.scss */
+/* line 159, ../scss/_text.scss */
 h3.badass_text {
   color: white;
   text-transform: uppercase;
@@ -8452,8 +8464,17 @@ h3.badass_text {
   font-weight: 700;
   font-size: 42px;
 }
+/* line 167, ../scss/_text.scss */
+h3.checkwod_title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
 
-/* line 158, ../scss/_text.scss */
+/* line 177, ../scss/_text.scss */
 h4 {
   margin-top: 16px;
   color: white;
@@ -8462,17 +8483,17 @@ h4 {
   font-size: 16px;
 }
 @media screen and (min-width: 750px) {
-  /* line 158, ../scss/_text.scss */
+  /* line 177, ../scss/_text.scss */
   h4 {
     margin-top: 27px;
     font-weight: 300;
     font-size: 36.53px;
   }
-  /* line 171, ../scss/_text.scss */
+  /* line 190, ../scss/_text.scss */
   h4.nav_item_text_footer {
     font-size: 22px;
   }
-  /* line 175, ../scss/_text.scss */
+  /* line 194, ../scss/_text.scss */
   h4.contact_email {
     margin-top: 5px;
     font-family: "Roboto", sans-serif;
@@ -8481,45 +8502,93 @@ h4 {
     color: #fff56c;
   }
 }
-/* line 184, ../scss/_text.scss */
+/* line 203, ../scss/_text.scss */
 h4.badass_text {
   text-transform: uppercase;
   font-family: "Rokkitt", serif;
   font-weight: 700;
   font-size: 33px;
 }
+/* line 210, ../scss/_text.scss */
+h4.contact_twitterFeed_name {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
 
-/* line 193, ../scss/_text.scss */
+/* line 219, ../scss/_text.scss */
 h5 {
   color: black;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
-/* line 200, ../scss/_text.scss */
+/* line 226, ../scss/_text.scss */
 h5.hero_text-footer {
   color: white;
 }
-/* line 204, ../scss/_text.scss */
+/* line 230, ../scss/_text.scss */
 h5.testimony_text_footer {
   text-align: center;
   text-transform: uppercase;
   font-size: 14;
   padding-bottom: 10px;
 }
-/* line 211, ../scss/_text.scss */
+/* line 237, ../scss/_text.scss */
 h5.badass_text {
   text-align: right;
   color: white;
   font-size: 23px;
 }
-/* line 218, ../scss/_text.scss */
+/* line 244, ../scss/_text.scss */
 h5.intro_text {
   font-family: "Roboto", sans-serif;
   font-size: 27px;
 }
+/* line 249, ../scss/_text.scss */
+h5.shoe_detail_title {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Rokkitt", serif;
+  font-size: 24px;
+}
+/* line 255, ../scss/_text.scss */
+h5.shoe_detail_title.text_lightbg {
+  color: #666666;
+}
+/* line 261, ../scss/_text.scss */
+h5.shoeselect_instruct {
+  padding-top: 32px;
+  padding-bottom: 47px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
 
-/* line 226, ../scss/_text.scss */
+/* line 272, ../scss/_text.scss */
+h6 {
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 700;
+  font-family: "Rokkitt", serif;
+  font-size: 24px;
+  text-align: center;
+}
+/* line 281, ../scss/_text.scss */
+h6:hover {
+  color: white;
+}
+/* line 285, ../scss/_text.scss */
+h6.contact_twitterFeed_username {
+  text-align: left;
+  color: white;
+}
+
+/* line 293, ../scss/_text.scss */
 span.badass_text-small {
   text-align: right;
   color: white;
@@ -8528,28 +8597,28 @@ span.badass_text-small {
   font-weight: 400;
   font-size: 20px;
 }
-/* line 235, ../scss/_text.scss */
+/* line 302, ../scss/_text.scss */
 span.testimony_text_heading-1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 243, ../scss/_text.scss */
+/* line 310, ../scss/_text.scss */
 span.testimony_text_heading-1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 251, ../scss/_text.scss */
+/* line 318, ../scss/_text.scss */
 span.testimony_text_heading-2 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Rokkitt", serif;
   font-weight: 700;
 }
-/* line 259, ../scss/_text.scss */
+/* line 326, ../scss/_text.scss */
 span.foothero_line-title {
   text-align: center;
   text-transform: uppercase;
@@ -8557,7 +8626,7 @@ span.foothero_line-title {
   font-weight: 700;
   text-shadow: 1px 1px 0px black;
 }
-/* line 267, ../scss/_text.scss */
+/* line 334, ../scss/_text.scss */
 span.foothero_line-2 {
   text-align: center;
   text-transform: uppercase;
@@ -8565,20 +8634,31 @@ span.foothero_line-2 {
   font-weight: 700;
   text-shadow: 1px 1px 0px black;
 }
-/* line 275, ../scss/_text.scss */
+/* line 342, ../scss/_text.scss */
 span.foothero_line-3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  text-shadow: 1px 1px 0px black;
 }
-/* line 281, ../scss/_text.scss */
+/* line 349, ../scss/_text.scss */
 span.foothero_line-4 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+}
+/* line 356, ../scss/_text.scss */
+span.checkwod_title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
 }
 
-/* line 288, ../scss/_text.scss */
+/* line 366, ../scss/_text.scss */
 p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -8586,25 +8666,25 @@ p {
   font-size: 13px;
   text-align: center;
 }
-/* line 297, ../scss/_text.scss */
+/* line 375, ../scss/_text.scss */
 p.contact_text {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
-/* line 303, ../scss/_text.scss */
+/* line 381, ../scss/_text.scss */
 p.contact_label {
   font-size: 14px;
   font-weight: 700;
   text-align: left;
   line-height: 51px;
 }
-/* line 309, ../scss/_text.scss */
+/* line 387, ../scss/_text.scss */
 p.contact_label.contact_label-email {
   line-height: 1.1;
 }
 @media screen and (min-width: 750px) {
-  /* line 314, ../scss/_text.scss */
+  /* line 392, ../scss/_text.scss */
   p.intro_text {
     color: black;
     font-family: "Roboto", sans-serif;
@@ -8612,7 +8692,7 @@ p.contact_label.contact_label-email {
     font-size: 23px;
   }
 }
-/* line 325, ../scss/_text.scss */
+/* line 403, ../scss/_text.scss */
 p.footer_reference {
   color: white;
   text-align: center;
@@ -8621,47 +8701,63 @@ p.footer_reference {
   font-size: 13px;
 }
 @media screen and (min-width: 750px) {
-  /* line 325, ../scss/_text.scss */
+  /* line 403, ../scss/_text.scss */
   p.footer_reference {
     margin-top: 63px;
   }
 }
-/* line 337, ../scss/_text.scss */
+/* line 415, ../scss/_text.scss */
 p.testimony_text_body {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
 }
-/* line 343, ../scss/_text.scss */
+/* line 421, ../scss/_text.scss */
 p.testimony_text_body.testimony_text_body_person {
   font-size: 15px;
 }
-/* line 348, ../scss/_text.scss */
+/* line 426, ../scss/_text.scss */
 p.badass_text {
   text-align: right;
   font-weight: 400;
   font-size: 20px;
 }
-/* line 354, ../scss/_text.scss */
+/* line 432, ../scss/_text.scss */
 p.comfort_blurb {
   text-align: left;
   font-size: 15px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 360, ../scss/_text.scss */
+/* line 438, ../scss/_text.scss */
 p.comfort_blurb.comfort_blurb_expanded {
   font-family: roboto;
   font-weight: 300;
   padding-top: 25px;
 }
-/* line 366, ../scss/_text.scss */
+/* line 444, ../scss/_text.scss */
 p.comfort_blurb.durability_text {
   text-align: right;
 }
+/* line 449, ../scss/_text.scss */
+p.shoeDesc_blurb {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+}
+/* line 455, ../scss/_text.scss */
+p.shoe_detail_desc {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 461, ../scss/_text.scss */
+p.contact_twitterFeed_text {
+  text-align: left;
+}
 
-/* line 373, ../scss/_text.scss */
+/* line 472, ../scss/_text.scss */
 a {
   margin-top: 16px;
   color: white;
@@ -8669,23 +8765,23 @@ a {
   font-weight: 300;
   font-size: 16px;
 }
-/* line 381, ../scss/_text.scss */
+/* line 480, ../scss/_text.scss */
 a.nav_item_text_footer {
   margin-top: -5px;
   font-size: 22px;
 }
 @media screen and (min-width: 750px) {
-  /* line 373, ../scss/_text.scss */
+  /* line 472, ../scss/_text.scss */
   a {
     margin-top: 27px;
     font-weight: 300;
     font-size: 36.53px;
   }
-  /* line 391, ../scss/_text.scss */
+  /* line 490, ../scss/_text.scss */
   a.nav_item_text_footer {
     font-size: 22px;
   }
-  /* line 396, ../scss/_text.scss */
+  /* line 495, ../scss/_text.scss */
   a.contact_email {
     margin-top: 5px;
     font-family: "Roboto", sans-serif;
@@ -8695,8 +8791,15 @@ a.nav_item_text_footer {
   }
 }
 
+/* line 505, ../scss/_text.scss */
+.text_lightbg {
+  color: #666666;
+}
+
 /* line 1, ../scss/_background.scss */
 .header_background {
+  position: relative;
+  z-index: 5;
   background-color: black;
 }
 
@@ -8811,6 +8914,11 @@ a.nav_item_text_footer {
 /* line 17, ../scss/_contact.scss */
 .contact_social_link {
   margin-top: 36px;
+}
+
+/* line 21, ../scss/_contact.scss */
+.contact_tweet {
+  padding-bottom: 10px;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -8972,4 +9080,60 @@ a.nav_item_text_footer {
 /* line 35, ../scss/_shoedetail.scss */
 .shoedetail_text.shoedetail_text-item3 {
   color: black;
+}
+
+/* line 1, ../scss/_shoedesc.scss */
+.shoeDesc_background {
+  background-image: url("../images/desktop_shoes_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 7, ../scss/_shoedesc.scss */
+.shoeDesc_container {
+  padding-top: 227px;
+  padding-bottom: 87px;
+}
+
+/* line 1, ../scss/_shoe.scss */
+.shoe_background {
+  background-image: url("../images/shoe_internal_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 7, ../scss/_shoe.scss */
+.shoe_title {
+  padding-bottom: 203px;
+}
+
+/* line 11, ../scss/_shoe.scss */
+.shoe_detail_container {
+  padding-bottom: 38px;
+}
+
+/* line 1, ../scss/_shoeselect.scss */
+.shoeselect_background {
+  background-color: black;
+}
+
+/* line 5, ../scss/_shoeselect.scss */
+.shoeselect_container {
+  padding-top: 72px;
+}
+
+/* line 1, ../scss/_checkwod.scss */
+.checkwod_background {
+  background-color: black;
+  background-image: url("../images/wodwearbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 10, ../scss/_checkwod.scss */
+.checkwod_title {
+  padding-top: 42px;
+  padding-bottom: 42px;
 }

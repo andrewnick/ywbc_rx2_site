@@ -33,6 +33,7 @@ h2 {
 	font-family: $rokkitt;
 	font-weight: $normal;
 	font-size: 55px;
+	text-transform: uppercase;
 
 	&.hero_text {
 
@@ -54,16 +55,13 @@ h2 {
 
 	&.testimony_text_heading-1{
 		text-align: center;
-		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $bold;
-		// font-size: 55px;
 	}
 
 	&.comfort_title {
 		line-height: 0.8;
 		color: white;
-		text-transform: uppercase;
 		font-weight: bold;
 
 		&.durability_text {
@@ -71,6 +69,18 @@ h2 {
 		}
 	}
 
+	&.shoeDesc_title{
+		font-family: $oswald;
+		color: white;
+		font-size: 72px;
+	}
+
+	&.shoe_title {
+		text-align: center;
+		color:white;
+		font-weight: $bold;
+		font-size: 60px;
+	}
 
 }
 
@@ -153,6 +163,15 @@ h3 {
 		font-weight: $bold;
 		font-size: 42px;
 	}
+
+	&.checkwod_title {
+		color:white;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $normal;
+		font-size: 48px;
+	}
 }
 
 h4 {
@@ -188,6 +207,13 @@ h4 {
 		font-size: 33px;
 	}
 
+	&.contact_twitterFeed_name {
+		text-align: left; 
+		margin-top: 0px;
+		padding-top:10px;
+		padding-bottom:10px;
+		font-size: 24px;
+	}
 }
 
 h5 {
@@ -218,6 +244,47 @@ h5 {
 	&.intro_text {
 		font-family: $roboto;
 		font-size: 27px;
+	}
+
+	&.shoe_detail_title {
+		color: white;
+		text-transform: uppercase;
+		font-family: $rokkitt;
+		font-size: 24px;
+
+		&.text_lightbg {
+			color: $dark-grey;
+		}
+	}
+
+	
+	&.shoeselect_instruct {
+		padding-top: 32px;
+		padding-bottom: 47px;
+		text-transform: uppercase;
+		color: white;
+		text-align: center;
+		font-weight: $normal;
+		font-size: 24px;
+	}
+}
+
+h6 {
+
+	text-transform: uppercase;
+	color: $dark-grey;
+	font-weight: $bold;
+	font-family: $rokkitt;
+	font-size: 24px;
+	text-align: center;
+
+	&:hover {
+		color: white;
+	}
+
+	&.contact_twitterFeed_username {
+		text-align: left; 
+		color: white;
 	}
 }
 
@@ -276,12 +343,23 @@ span {
 		text-align: center;
 		font-family: $roboto;
 		font-weight: $normal;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 	}
 
 	&.foothero_line-4 {
 		text-align: center;
 		font-family: $roboto;
 		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+	}
+
+	&.checkwod_title {
+		color:white;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $normal;
+		font-size: 48px;
 	}
 }
 
@@ -368,6 +446,27 @@ p {
 		}
 	}
 
+	&.shoeDesc_blurb {
+		font-weight: $normal;
+		font-size: 24px;
+		text-align: left;
+	}
+
+	&.shoe_detail_desc {
+		font-size: 16px;
+		font-weight: $normal;
+		text-align: left;
+	}
+
+	&.contact_twitterFeed_text{
+		// margin-top: 0px;
+		// padding-top:10px;
+		// padding-bottom:10px;
+		text-align: left;
+		// font-size: 24px;
+	}
+
+
 }
 
 a {
@@ -401,6 +500,12 @@ a {
 			color: $yellow;
 		}
 	}
+}
+
+.text_lightbg {
+
+	color: $dark-grey;
+
 }
 
 
