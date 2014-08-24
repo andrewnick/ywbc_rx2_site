@@ -12,9 +12,7 @@
 					<div class="nav_item visible-xs col-xs-offset-2 col-xs-2"><a href="#facebook"><img src="assets/images/facebook_sm--white.png" alt="facebook_logo" class="img-responsive"></a></div>
 					<div class="nav_item visible-xs col-xs-2"><a href="#twitter"><img src="assets/images/twitter_sm--white.png" alt="twitter_logo" class="img-responsive"></a></div>
 			</nav>
-
 			<p class="footer_reference col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-3">contact and social media icons designed by Lubos Volkov</p>
 		</div>
-
 	</footer>
 </div>
