@@ -19,7 +19,7 @@ $(document).ready( function(){
 
 	getTwitterFeed();
 
-	$('.block_text').slabText();
+	setTimeout($('.block_text').slabText(), 2000);
 
 	// Set the hight of the background image depending on the width of the section
 	//$('.hero_background').css('height', setImageHeight( hero_image_large_ratio , $('.hero_background')));

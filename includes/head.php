@@ -6,7 +6,7 @@
   <meta name="author" content="">
   <link rel="icon" href="favicon.ico">
 
-  <title>RX&amp;sup2</title>
+  <title>RX&sup2</title>
 
   <!-- Google Fonts Import -->
   <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Oswald:400,700,300|Roboto:400,500,700' rel='stylesheet' type='text/css'>
