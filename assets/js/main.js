@@ -12,6 +12,11 @@ var secInMonth = secInWeek*4;
 var secInYear = secInWeek*52;
 
 
+// WebFont.load({
+//     google: {
+//       families: ['Rokkitt:400,700', 'Oswald:400,700,300', 'Roboto:400,500,700']
+//     }
+//  });
 
 $(document).ready( function(){
 

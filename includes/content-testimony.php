@@ -2,8 +2,8 @@
 	<div class="testimony_container testimony_row container">
 		<div class="row">
 			<img src="assets/images/rx2_logo--black.png" alt="Logo" class="col-sm-offset-2 col-sm-2">
-			<div class="block_text col-sm-6">
-				<h2>
+			<div class=" block_text col-sm-6">
+				<h2 class="text_heading">
 					<span class="testimony_text_heading-1 slabtext">Made for crossfitters</span>
 					<span class="testimony_text_heading-1 slabtext">by crossfitters</span>
 					<span class="testimony_text_heading-2 slabtext">Because we know</span>

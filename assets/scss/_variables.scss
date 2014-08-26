@@ -11,29 +11,19 @@ $teal: #27beb8;
 $dark-grey: #666666;
 
 // Fonts
-$rokkitt: 'Rokkitt', serif;
-$oswald: 'Oswald', sans-serif;
-$roboto: 'Roboto', sans-serif;
+// $rokkitt: 'Rokkitt', serif;
+// $oswald: 'Oswald', sans-serif;
+// $roboto: 'Roboto', sans-serif;
+
+$rokkitt: serif;
+$oswald: sans-serif;
+$roboto:  sans-serif;
 
 // Weights
 $light: 300;
 $normal: 400;
 $medium: 500;
 $bold: 700;
-
-// Font families and settings
-$header_font_family: 'Smythe', cursive;
-$header_font_weight: normal;
-
-$body_font_family: 'Quando', serif;
-$body_font_weight: normal;
-$body_font_size: 18px;
-
-
-//Grid Dimensions
-// $gridheight: 3px;
-// $baseline: 27px;
-// $section_vertical_padding: $gridheight * 12; // Provides padding distance between sections;
 
 //Header padding
 $header_padding_top_m: 87px;
@@ -43,5 +33,3 @@ $testimony_padding: 77px;
 
 // Glyphicons location visible to scss compiler
 $icon-font-path: "../bootstrap/assets/fonts/bootstrap/";
-
-// // Bootstrap variables
