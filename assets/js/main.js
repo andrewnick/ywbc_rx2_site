@@ -1,6 +1,6 @@
-var tablet = 750;
-var desktop = 970;
-var large = 1170;
+var tablet = 768;
+var desktop = 992;
+var large = 1200;
 
 var hero_image_large_ratio = 0.37;
 
@@ -20,11 +20,11 @@ var secInYear = secInWeek*52;
 
 $(document).ready( function(){
 
-	
-
 	getTwitterFeed();
 
-	setTimeout($('.block_text').slabText(), 2000);
+	$(".fittext_text").fitText(1.4);
+
+	//setTimeout($('.block_text').slabText(), 2000);
 
 	// Set the hight of the background image depending on the width of the section
 	//$('.hero_background').css('height', setImageHeight( hero_image_large_ratio , $('.hero_background')));
@@ -67,9 +67,7 @@ function getTwitterFeed (){
 
 				// });				
 
-				console.log(tweet);
-
-				
+				console.log(tweet);				
 
 		});
 
