@@ -1,6 +1,6 @@
-var tablet = 750;
-var desktop = 970;
-var large = 1170;
+var tablet = 768;
+var desktop = 992;
+var large = 1200;
 
 var hero_image_large_ratio = 0.37;
 
@@ -17,14 +17,35 @@ var secInYear = secInWeek*52;
 //       families: ['Rokkitt:400,700', 'Oswald:400,700,300', 'Roboto:400,500,700']
 //     }
 //  });
-
 $(document).ready( function(){
 
 	
 
 	getTwitterFeed();
 
-	setTimeout($('.block_text').slabText(), 2000);
+    $('.block_text').slabText();
+    $('.block_text').slabText();
+	
+
+	// var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+	// fitterHappierText(nodes);
+
+	// WebFont.load({
+	//     google: {
+	//       families: ['Rokkitt:400,700', 'Oswald:400,700,300', 'Roboto:400,500,700']
+	//     }
+	//  });
+
+ //    (function() {
+ //      var wf = document.createElement('script');
+ //      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+ //      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+ //      wf.type = 'text/javascript';
+ //      wf.async = 'true';
+ //      var s = document.getElementsByTagName('script')[0];
+ //      s.parentNode.insertBefore(wf, s);
+ //    })();
+  
 
 	// Set the hight of the background image depending on the width of the section
 	//$('.hero_background').css('height', setImageHeight( hero_image_large_ratio , $('.hero_background')));
@@ -49,21 +70,21 @@ function getTwitterFeed (){
 
 				// $.each(feed, function (i, feedTweet) {
 
-					var tweet = '<article class="contact_tweet"><div class="row">' + 
-								'<h4 class="contact_twitterFeed_name col-xs-3">' + feedTweet.user.name + '</h4>' +
-										'<h6 class="contact_twitterFeed_username col-xs-8">@'+feedTweet.user.screen_name+'</h6>' +
-									'</div>' +
-									'<div class="row">' +
-										'<p class="contact_twitterFeed_text col-sm-12">'+feedTweet.text+'</p>' +
-									'</div>' +
-									'<div class="row">' +
-										'<p class="contact_twitterFeed_text col-sm-12">' + feedTweet.created_at + '</p>' +
-									'</div>' +
-								'</article>';
+				var tweet = '<article class="contact_tweet"><div class="row">' + 
+							'<h4 class="contact_twitterFeed_name col-xs-3">' + feedTweet.user.name + '</h4>' +
+									'<h6 class="contact_twitterFeed_username col-xs-8">@'+feedTweet.user.screen_name+'</h6>' +
+								'</div>' +
+								'<div class="row">' +
+									'<p class="contact_twitterFeed_text col-sm-12">'+feedTweet.text+'</p>' +
+								'</div>' +
+								'<div class="row">' +
+									'<p class="contact_twitterFeed_text col-sm-12">' + feedTweet.created_at + '</p>' +
+								'</div>' +
+							'</article>';
 
-					$('.contact_tweets_container').append(tweet);
-					$('.contact_tweets_container').append(tweet);
-					$('.contact_tweets_container').append(tweet);
+				$('.contact_tweets_container').append(tweet);
+				$('.contact_tweets_container').append(tweet);
+				$('.contact_tweets_container').append(tweet);
 
 				// });				
 

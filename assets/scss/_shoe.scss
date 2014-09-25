@@ -1,20 +1,91 @@
 .shoe_background {
-	background-image: url("../images/shoe_internal_background.png");
+    position: relative;
+	background-image: url("../images/shoe_detail_background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
+    z-index: 1;
 }
+
+.shoe_text_background {
+	width: 100%; 
+    height: 100%; 
+    // -webkit-transform: skew(-30deg); 
+    // -moz-transform: skew(-30deg); 
+    // transform: skew(-30deg);
+    margin: 20px;
+    color:#ff0000;
+
+    &.shoe_text_background-first {
+    	background: $teal;
+    }
+
+    &.shoe_text_background-second {
+    	background: $orange;
+    }
+
+    &.shoe_text_background-third {
+    	background: $yellow;
+    }
+}
+
+.shoe_text_container {
+    width: 80%; 
+    height: 90%; 
+    margin: 0px auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    // -webkit-transform: skew(30deg); 
+    // -moz-transform: skew(30deg); 
+    // transform: skew(30deg);
+}
+
 .shoe_title {
-	padding-bottom: 203px;
+    padding-top: 15px;
+	padding-bottom: 30px;
 }
 
 .shoe_detail_container {
-	padding-bottom: 38px;
+	position: relative;
+    z-index: 10;
+}
 
-	// &.shoe_detail_container--last {
+.shoe_line {
 
-	// 	padding-bottom: 78px;
-	// }
+    webkit-text-stroke-width: 5px;
+    stroke-width: 5px;
+
+    &.shoe_line-yellow{
+        stroke:$yellow;
+    }
+}
+
+.shoe_container {
+
+}
+
+.shoe_img_container {
+    position: absolute;
+    z-index:5;
+}
+
+// .shoe_line_container {
+//     position: relative;
+//     background-image: url("../images/shoe_detail_lines.svg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: top center;
+//     position: absolute;
+//     // top:0;
+//     // left:0;
+//     // right:0;
+//     // bottom: 0;
+//     z-index: 5;
+// }
+
+.shoe_line_img {
+    width:100%;
+    height:100%;
 }
 
 

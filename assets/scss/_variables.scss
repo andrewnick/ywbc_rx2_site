@@ -1,6 +1,6 @@
-$tablet: 750px;
-$desktop: 970px;
-$large: 1170px;
+$tablet: 768px;
+$desktop: 992px;
+$large: 1200px;
 
 $background-colour: #1e0000;
 
@@ -11,13 +11,13 @@ $teal: #27beb8;
 $dark-grey: #666666;
 
 // Fonts
-// $rokkitt: 'Rokkitt', serif;
-// $oswald: 'Oswald', sans-serif;
-// $roboto: 'Roboto', sans-serif;
+$rokkitt: 'Rokkitt', serif;
+$oswald: 'Oswald', sans-serif;
+$roboto: 'Roboto', sans-serif;
 
-$rokkitt: serif;
-$oswald: sans-serif;
-$roboto:  sans-serif;
+// $rokkitt: serif;
+// $oswald: sans-serif;
+// $roboto:  sans-serif;
 
 // Weights
 $light: 300;

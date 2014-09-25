@@ -37,6 +37,7 @@
     <?php require_once("includes/footer.php") ?>
 
       <script type="text/javascript" src="assets/js/jquery.js"></script> 
+      <script type="text/javascript" src="assets/js/fitter-happier-text.js"></script> 
       <script type="text/javascript" src="assets/js/jquery.slabtext.js"></script>  
       <script type="text/javascript" src="assets/js/main.js"></script>
       

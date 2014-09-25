@@ -1,3 +1,7 @@
+html {
+	font-size: 16px;
+}
+
 body {
 	// font-size: 62.5%;
 }
@@ -18,12 +22,22 @@ h1 {
 	font-family: $oswald;
 	font-weight: $bold;
 	font-size: 26px;
-	margin-top: 47px;
+	//margin-top: 47px;
 
 
 	@include respond ($tablet) {
-		margin-top: 280px;
+		//margin-top: 280px;
 		font-size: 97px;
+	}
+
+	&.foothero_line-title-lg {
+		font-size: 6vw;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		padding-bottom: 20vw;
 	}
 }
 
@@ -170,7 +184,7 @@ h3 {
 		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $normal;
-		font-size: 48px;
+		font-size: 4vw;
 	}
 }
 
@@ -289,6 +303,9 @@ h6 {
 }
 
 span {
+
+	// line-height: 0.9;
+	font-size: 30px;
 	
 	&.badass_text-small {
 			text-align: right;
@@ -329,6 +346,7 @@ span {
 		font-family: $oswald;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 6.9vw;
 	}
 
 	&.foothero_line-2 {
@@ -337,6 +355,7 @@ span {
 		font-family: $rokkitt;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 6.2vw;
 	}
 
 	&.foothero_line-3 {
@@ -344,6 +363,7 @@ span {
 		font-family: $roboto;
 		font-weight: $normal;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 4.1vw;
 	}
 
 	&.foothero_line-4 {
@@ -351,15 +371,7 @@ span {
 		font-family: $roboto;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-	}
-
-	&.checkwod_title {
-		color:white;
-		text-align: center;
-		text-transform: uppercase;
-		font-family: $oswald;
-		font-weight: $normal;
-		font-size: 48px;
+		font-size: 4vw;
 	}
 }
 
