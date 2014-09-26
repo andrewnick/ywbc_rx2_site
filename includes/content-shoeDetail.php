@@ -4,7 +4,7 @@
 		<div class="shoedetail_container container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="shoedetail_text shoedetail_text-1"> Argentcore Lining and Insole.</h3>
+					<h3 class="shoedetail_text shoedetail_text-1 block_text"><span class="slabtext">Argentcore Lining and Insole.</span></h3>
 				</div>
 			</div>
 		</div>
@@ -14,7 +14,7 @@
 		<div class="shoedetail_container container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="shoedetail_text shoedetail_text-2">Superior grip and impact absorbtion.</h3>
+					<h3 class="shoedetail_text shoedetail_text-2 block_text"><span class="slabtext">Superior grip and impact absorbtion.</span></h3>
 				</div>
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 		<div class="shoedetail_container container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="shoedetail_text shoedetail_text-3">Long-Lasting structural materials.</h3>
+					<h3 class="shoedetail_text shoedetail_text-3 block_text"><span class="slabtext">Long-Lasting structural materials.</span></h3>
 				</div>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 		<div class="shoedetail_container container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="shoedetail_text shoedetail_text-4">Nearby Rentals</h3>
+					<h3 class="shoedetail_text shoedetail_text-4 block_text"><span class="slabtext">Nearby Retailers</span></h3>
 				</div>
 			</div>
 		</div>

@@ -8272,7 +8272,7 @@ button.close {
 @media screen and (min-width: 768px) {
   /* line 10, ../scss/_nav.scss */
   .nav_logo {
-    top: 218px;
+    top: 125px;
   }
 }
 
@@ -8294,7 +8294,7 @@ img {
 @media screen and (min-width: 768px) {
   /* line 24, ../scss/_nav.scss */
   .nav_container {
-    padding-top: 243px;
+    padding-top: 125px;
   }
 }
 

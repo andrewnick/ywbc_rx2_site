@@ -13,7 +13,7 @@
 	top: $header_padding_top_m + 9px;
 
 	@include respond ($tablet) {
-	 	top: 218px;
+	 	top: 125px;
 	}
 }
 
@@ -29,7 +29,7 @@ img {
 	@include clearfix;
 	padding-top: $header_padding_top_m;
 	@include respond ($tablet) {
-		padding-top: 243px;
+		padding-top: 125px;
 	}
 
 }

@@ -11,30 +11,35 @@ var secInWeek = secInDay*7;
 var secInMonth = secInWeek*4;
 var secInYear = secInWeek*52;
 
+$(window).load(function(){
+	// $('.block_text').slabText();
+	// $('.block_text').slabText();
+});
 
-// WebFont.load({
-//     google: {
-//       families: ['Rokkitt:400,700', 'Oswald:400,700,300', 'Roboto:400,500,700']
-//     }
-//  });
 $(document).ready( function(){
-
 	
+	WebFont.load({
+	    google: {
+	      families: ['Rokkitt:400,700', 'Oswald:300,400,700', 'Roboto:400,500,700']
+	    },
+	    loading: function () {
+	    	//$('.block_text').slabText();
+	    }
+	 });
+
+	$('.block_text').slabText();
+	// $('.block_text').slabText();
 
 	getTwitterFeed();
 
-    $('.block_text').slabText();
-    $('.block_text').slabText();
+    // $('.block_text').slabText();
+    // setTimeout($('.block_text').slabText(), 1000);
 	
 
 	// var nodes = document.querySelectorAll('[data-fitter-happier-text]');
 	// fitterHappierText(nodes);
 
-	// WebFont.load({
-	//     google: {
-	//       families: ['Rokkitt:400,700', 'Oswald:400,700,300', 'Roboto:400,500,700']
-	//     }
-	//  });
+
 
  //    (function() {
  //      var wf = document.createElement('script');
@@ -62,7 +67,7 @@ function getTwitterFeed (){
 
 		$.getJSON('twitter.json', function(feedTweet){
 
-				console.log(feedTweet);
+				// console.log(feedTweet);
 
 				// var tweetedTime = getTimeSinceTweet(feedTweet.created_at);
 				// var allTweets_head = '<section class="contact_tweets_container">';
@@ -88,7 +93,7 @@ function getTwitterFeed (){
 
 				// });				
 
-				console.log(tweet);
+				// console.log(tweet);
 
 				
 
