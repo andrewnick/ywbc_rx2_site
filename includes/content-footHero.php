@@ -1,6 +1,6 @@
 <section class="foothero_background">
 	<div class="foothero_container container">
-		<article class="visible-xs">
+<!-- 		<article class="visible-xs">
 			<div class="row">		
 				<div class="col-xs-offset-2 col-xs-8">			
 					<h4 class="footerhero_text_container-sm block_text">	
@@ -13,7 +13,7 @@
 					<img class="foothero_img img-responsive" src="assets/images/shoe-profile-internal.png" alt="internal shoe" >
 				</div>
 			</div>
-		</article>
+		</article> -->
 
 		<article class="hidden-xs">
 			<div class="row">		

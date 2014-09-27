@@ -1,8 +1,10 @@
 .foothero_background {
-	background-image: url("../images/desktop_shoes_1.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+	// background-image: url("../images/desktop_shoes_1.png");
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: center center;
+
+	background: #000;
 
 	// @include respond ($tablet) {
 	// 		background-image: url("../images/desktop_home_1.png");
@@ -25,6 +27,7 @@
 }
 
 .foothero_container {
-	//height: 40vw;
+	// height: 40vw;
+	width: 50%;
 }
 
