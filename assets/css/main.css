@@ -8601,76 +8601,67 @@ h6.contact_twitterFeed_username {
   color: white;
 }
 
-/* line 305, ../scss/_text.scss */
-span {
-  font-size: 30px;
-}
-/* line 310, ../scss/_text.scss */
+/* line 307, ../scss/_text.scss */
 span.badass_text-small {
   text-align: right;
   color: white;
   font-size: 23px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 20px;
 }
-/* line 319, ../scss/_text.scss */
+/* line 315, ../scss/_text.scss */
 span.testimony_text_heading-1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 327, ../scss/_text.scss */
+/* line 322, ../scss/_text.scss */
 span.testimony_text_heading-1 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 335, ../scss/_text.scss */
+/* line 329, ../scss/_text.scss */
 span.testimony_text_heading-2 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Rokkitt", serif;
   font-weight: 700;
 }
-/* line 343, ../scss/_text.scss */
+/* line 336, ../scss/_text.scss */
 span.foothero_line-title {
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   text-shadow: 1px 1px 0px black;
-  font-size: 6.9vw;
 }
-/* line 352, ../scss/_text.scss */
+/* line 344, ../scss/_text.scss */
 span.foothero_line-2 {
   text-align: center;
   text-transform: uppercase;
   font-family: "Rokkitt", serif;
   font-weight: 700;
   text-shadow: 1px 1px 0px black;
-  font-size: 6.2vw;
 }
-/* line 361, ../scss/_text.scss */
+/* line 352, ../scss/_text.scss */
 span.foothero_line-3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-shadow: 1px 1px 0px black;
-  font-size: 4.1vw;
 }
-/* line 369, ../scss/_text.scss */
+/* line 359, ../scss/_text.scss */
 span.foothero_line-4 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-shadow: 1px 1px 0px black;
-  font-size: 4vw;
 }
 
-/* line 378, ../scss/_text.scss */
+/* line 367, ../scss/_text.scss */
 p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -8678,25 +8669,25 @@ p {
   font-size: 13px;
   text-align: center;
 }
-/* line 387, ../scss/_text.scss */
+/* line 376, ../scss/_text.scss */
 p.contact_text {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
-/* line 393, ../scss/_text.scss */
+/* line 382, ../scss/_text.scss */
 p.contact_label {
   font-size: 14px;
   font-weight: 700;
   text-align: left;
   line-height: 51px;
 }
-/* line 399, ../scss/_text.scss */
+/* line 388, ../scss/_text.scss */
 p.contact_label.contact_label-email {
   line-height: 1.1;
 }
 @media screen and (min-width: 768px) {
-  /* line 404, ../scss/_text.scss */
+  /* line 393, ../scss/_text.scss */
   p.intro_text {
     color: black;
     font-family: "Roboto", sans-serif;
@@ -8704,7 +8695,7 @@ p.contact_label.contact_label-email {
     font-size: 23px;
   }
 }
-/* line 415, ../scss/_text.scss */
+/* line 404, ../scss/_text.scss */
 p.footer_reference {
   color: white;
   text-align: center;
@@ -8713,63 +8704,63 @@ p.footer_reference {
   font-size: 13px;
 }
 @media screen and (min-width: 768px) {
-  /* line 415, ../scss/_text.scss */
+  /* line 404, ../scss/_text.scss */
   p.footer_reference {
     margin-top: 63px;
   }
 }
-/* line 427, ../scss/_text.scss */
+/* line 416, ../scss/_text.scss */
 p.testimony_text_body {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
 }
-/* line 433, ../scss/_text.scss */
+/* line 422, ../scss/_text.scss */
 p.testimony_text_body.testimony_text_body_person {
   font-size: 15px;
 }
-/* line 438, ../scss/_text.scss */
+/* line 427, ../scss/_text.scss */
 p.badass_text {
   text-align: right;
   font-weight: 400;
   font-size: 20px;
 }
-/* line 444, ../scss/_text.scss */
+/* line 433, ../scss/_text.scss */
 p.comfort_blurb {
   text-align: left;
   font-size: 15px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 450, ../scss/_text.scss */
+/* line 439, ../scss/_text.scss */
 p.comfort_blurb.comfort_blurb_expanded {
   font-family: roboto;
   font-weight: 300;
   padding-top: 25px;
 }
-/* line 456, ../scss/_text.scss */
+/* line 445, ../scss/_text.scss */
 p.comfort_blurb.durability_text {
   text-align: right;
 }
-/* line 461, ../scss/_text.scss */
+/* line 450, ../scss/_text.scss */
 p.shoeDesc_blurb {
   font-weight: 400;
   font-size: 24px;
   text-align: left;
 }
-/* line 467, ../scss/_text.scss */
+/* line 456, ../scss/_text.scss */
 p.shoe_detail_desc {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
 }
-/* line 473, ../scss/_text.scss */
+/* line 462, ../scss/_text.scss */
 p.contact_twitterFeed_text {
   text-align: left;
 }
 
-/* line 484, ../scss/_text.scss */
+/* line 473, ../scss/_text.scss */
 a {
   margin-top: 16px;
   color: white;
@@ -8777,23 +8768,23 @@ a {
   font-weight: 300;
   font-size: 16px;
 }
-/* line 492, ../scss/_text.scss */
+/* line 481, ../scss/_text.scss */
 a.nav_item_text_footer {
   margin-top: -5px;
   font-size: 22px;
 }
 @media screen and (min-width: 768px) {
-  /* line 484, ../scss/_text.scss */
+  /* line 473, ../scss/_text.scss */
   a {
     margin-top: 27px;
     font-weight: 300;
     font-size: 36.53px;
   }
-  /* line 502, ../scss/_text.scss */
+  /* line 491, ../scss/_text.scss */
   a.nav_item_text_footer {
     font-size: 22px;
   }
-  /* line 507, ../scss/_text.scss */
+  /* line 496, ../scss/_text.scss */
   a.contact_email {
     margin-top: 5px;
     font-family: "Roboto", sans-serif;
@@ -8803,7 +8794,7 @@ a.nav_item_text_footer {
   }
 }
 
-/* line 517, ../scss/_text.scss */
+/* line 506, ../scss/_text.scss */
 .text_lightbg {
   color: #666666;
 }

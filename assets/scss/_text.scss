@@ -303,9 +303,6 @@ h6 {
 }
 
 span {
-
-	// line-height: 0.9;
-	font-size: 30px;
 	
 	&.badass_text-small {
 			text-align: right;
@@ -313,7 +310,6 @@ span {
 			font-size: 23px;
 			font-family: $roboto;
 			font-weight: $normal;
-			font-size: 20px;
 	}
 
 	&.testimony_text_heading-1{
@@ -321,7 +317,6 @@ span {
 		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $bold;
-		// font-size: 55px;
 	}
 
 	&.testimony_text_heading-1{
@@ -329,7 +324,6 @@ span {
 		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $bold;
-		// font-size: 55px;
 	}
 
 	&.testimony_text_heading-2 {
@@ -337,7 +331,6 @@ span {
 		text-transform: uppercase;
 		font-family: $rokkitt;
 		font-weight: $bold;
-		//font-size: 46px;
 	}
 
 	&.foothero_line-title {
@@ -346,7 +339,6 @@ span {
 		font-family: $oswald;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-		font-size: 6.9vw;
 	}
 
 	&.foothero_line-2 {
@@ -355,7 +347,6 @@ span {
 		font-family: $rokkitt;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-		font-size: 6.2vw;
 	}
 
 	&.foothero_line-3 {
@@ -363,7 +354,6 @@ span {
 		font-family: $roboto;
 		font-weight: $normal;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-		font-size: 4.1vw;
 	}
 
 	&.foothero_line-4 {
@@ -371,7 +361,6 @@ span {
 		font-family: $roboto;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-		font-size: 4vw;
 	}
 }
 
