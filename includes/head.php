@@ -7,10 +7,7 @@
   <link rel="icon" href="favicon.ico">
 
   <title>RX&sup2;</title>
-
-  <!-- Google Fonts Import -->
-  <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Oswald:400,700,300|Roboto:400,500,700' rel='stylesheet' type='text/css'>
-
+  
   <!-- Bootstrap core CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
 
