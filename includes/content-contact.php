@@ -16,7 +16,7 @@
 					<div class="row hidden-xs">
 						<a href="#twitter">
 							<div class="nav_item col-xs-4 col-sm-offset-2 col-sm-2 col-lg-2">
-								<img src="assets/images/twitter_sm--white.png" alt="twitter_logo" class="img-responsive">
+								<img src="assets/images/tw_sm-white.png" alt="twitter_logo" class="img-responsive">
 							</div>
 							<p class="contact_label col-sm-6">Twitter</p>
 						</a>
@@ -25,7 +25,7 @@
 					<div class="row hidden-xs">
 						<a href="#facebook">
 							<div class="nav_item col-xs-4 col-sm-offset-2 col-sm-2 col-lg-2">
-								<img src="assets/images/facebook_sm--white.png" alt="facebook_logo" class="img-responsive">
+								<img src="assets/images/faceb_sm-white.png" alt="facebook_logo" class="img-responsive">
 							</div>
 							<p class="contact_label col-sm-6">Facebook</p>
 						</a>
@@ -34,7 +34,7 @@
 					<div class="row hidden-xs">
 						<a href="#mail">
 							<div class="nav_item col-xs-4 col-sm-offset-2 col-sm-2 col-lg-2">
-								<img src="assets/images/mail_sm--white.png" alt="main_logo" class="img-responsive">
+								<img src="assets/images/mail_sm-white.png" alt="main_logo" class="img-responsive">
 							</div>
 							<p class="contact_label col-sm-8">or sign up to our mailing list.</p>
 						</a>

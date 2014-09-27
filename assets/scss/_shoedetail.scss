@@ -31,9 +31,25 @@
 		text-transform: uppercase;
 		font-family: $rokkitt;
 		font-weight: $bold;
+		text-align: center;
+		padding-left: 3vw;
+		padding-right: 3vw;
 
-		&.shoedetail_text-item3 {
+		&.shoedetail_text-1 {
+			font-size: 4.9vw;
+		}
+
+		&.shoedetail_text-2 {
+			font-size: 4.9vw;
+		}
+		
+		&.shoedetail_text-3 {
+			font-size: 4.9vw;
 			color: black;
+		}
+
+		&.shoedetail_text-4 {
+			font-size: 4.9vw;
 		}
 }
 

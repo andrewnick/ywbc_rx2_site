@@ -11,24 +11,17 @@ var secInWeek = secInDay*7;
 var secInMonth = secInWeek*4;
 var secInYear = secInWeek*52;
 
-
-// WebFont.load({
-//     google: {
-//       families: ['Rokkitt:400,700', 'Oswald:400,700,300', 'Roboto:400,500,700']
-//     }
-//  });
-
 $(document).ready( function(){
+	
+	WebFont.load({
+	    google: {
+	      families: ['Rokkitt:400,700', 'Oswald:300,400,700', 'Roboto:400,500,700']
+	    },
+	 });
+
+	$('.block_text').slabText();
 
 	getTwitterFeed();
-
-	$(".fittext_text").fitText(1.4);
-
-	//setTimeout($('.block_text').slabText(), 2000);
-
-	// Set the hight of the background image depending on the width of the section
-	//$('.hero_background').css('height', setImageHeight( hero_image_large_ratio , $('.hero_background')));
-	// $('.intro_background').css('height', setImageHeight( hero_image_large_ratio , $('.intro_background')));
 
 });
 
@@ -41,7 +34,7 @@ function getTwitterFeed (){
 
 		$.getJSON('twitter.json', function(feedTweet){
 
-				console.log(feedTweet);
+				// console.log(feedTweet);
 
 				// var tweetedTime = getTimeSinceTweet(feedTweet.created_at);
 				// var allTweets_head = '<section class="contact_tweets_container">';
@@ -49,29 +42,27 @@ function getTwitterFeed (){
 
 				// $.each(feed, function (i, feedTweet) {
 
-					var tweet = '<article class="contact_tweet"><div class="row">' + 
-								'<h4 class="contact_twitterFeed_name col-xs-3">' + feedTweet.user.name + '</h4>' +
-										'<h6 class="contact_twitterFeed_username col-xs-8">@'+feedTweet.user.screen_name+'</h6>' +
-									'</div>' +
-									'<div class="row">' +
-										'<p class="contact_twitterFeed_text col-sm-12">'+feedTweet.text+'</p>' +
-									'</div>' +
-									'<div class="row">' +
-										'<p class="contact_twitterFeed_text col-sm-12">' + feedTweet.created_at + '</p>' +
-									'</div>' +
-								'</article>';
+				var tweet = '<article class="contact_tweet"><div class="row">' + 
+							'<h4 class="contact_twitterFeed_name col-xs-3">' + feedTweet.user.name + '</h4>' +
+									'<h6 class="contact_twitterFeed_username col-xs-8">@'+feedTweet.user.screen_name+'</h6>' +
+								'</div>' +
+								'<div class="row">' +
+									'<p class="contact_twitterFeed_text col-sm-12">'+feedTweet.text+'</p>' +
+								'</div>' +
+								'<div class="row">' +
+									'<p class="contact_twitterFeed_text col-sm-12">' + feedTweet.created_at + '</p>' +
+								'</div>' +
+							'</article>';
 
-					$('.contact_tweets_container').append(tweet);
-					$('.contact_tweets_container').append(tweet);
-					$('.contact_tweets_container').append(tweet);
+				$('.contact_tweets_container').append(tweet);
+				$('.contact_tweets_container').append(tweet);
+				$('.contact_tweets_container').append(tweet);
 
 				// });				
 
-				console.log(tweet);				
+				// console.log(tweet);
 
 		});
-
-
 }
 
 

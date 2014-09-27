@@ -1,3 +1,7 @@
+html {
+	font-size: 16px;
+}
+
 body {
 	// font-size: 62.5%;
 }
@@ -18,12 +22,22 @@ h1 {
 	font-family: $oswald;
 	font-weight: $bold;
 	font-size: 26px;
-	margin-top: 47px;
+	//margin-top: 47px;
 
 
 	@include respond ($tablet) {
-		margin-top: 280px;
+		//margin-top: 280px;
 		font-size: 97px;
+	}
+
+	&.foothero_line-title-lg {
+		font-size: 6vw;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		padding-bottom: 20vw;
 	}
 }
 
@@ -170,7 +184,7 @@ h3 {
 		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $normal;
-		font-size: 48px;
+		font-size: 4vw;
 	}
 }
 
@@ -296,7 +310,6 @@ span {
 			font-size: 23px;
 			font-family: $roboto;
 			font-weight: $normal;
-			font-size: 20px;
 	}
 
 	&.testimony_text_heading-1{
@@ -304,7 +317,6 @@ span {
 		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $bold;
-		// font-size: 55px;
 	}
 
 	&.testimony_text_heading-1{
@@ -312,7 +324,6 @@ span {
 		text-transform: uppercase;
 		font-family: $oswald;
 		font-weight: $bold;
-		// font-size: 55px;
 	}
 
 	&.testimony_text_heading-2 {
@@ -320,7 +331,6 @@ span {
 		text-transform: uppercase;
 		font-family: $rokkitt;
 		font-weight: $bold;
-		//font-size: 46px;
 	}
 
 	&.foothero_line-title {
@@ -351,15 +361,6 @@ span {
 		font-family: $roboto;
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-	}
-
-	&.checkwod_title {
-		color:white;
-		text-align: center;
-		text-transform: uppercase;
-		font-family: $oswald;
-		font-weight: $normal;
-		font-size: 48px;
 	}
 }
 
