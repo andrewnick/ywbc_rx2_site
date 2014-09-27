@@ -1,20 +1,20 @@
-// html {
-// 	font-size: 16px;
-// }
+html {
+	font-size: 16px;
+}
 
-// body {
-// 	// font-size: 62.5%;
-// }
+body {
+	// font-size: 62.5%;
+}
 
-// h1,h2,h3,h4,h5 {
-// 	margin: 0;
-// 	padding: 0;
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
 
-// 	&.hero_text {
-// 		text-align: center;
-// 		text-transform: uppercase;
-// 	}
-// }
+	&.hero_text {
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
 
 h1 {
 
@@ -30,15 +30,15 @@ h1 {
 		font-size: 97px;
 	}
 
-	// &.foothero_line-title-lg {
-	// 	font-size: 6vw;
-	// 	text-align: center;
-	// 	text-transform: uppercase;
-	// 	font-family: $oswald;
-	// 	font-weight: $bold;
-	// 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-	// 	padding-bottom: 20vw;
-	// }
+	&.foothero_line-title-lg {
+		font-size: 6vw;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		padding-bottom: 20vw;
+	}
 }
 
 // h2 {
@@ -302,78 +302,78 @@ h1 {
 // 	}
 // }
 
-// span {
+span {
 
-// 	// line-height: 0.9;
-// 	font-size: 30px;
+	// line-height: 0.9;
+	// font-size: 30px;
 	
-// 	&.badass_text-small {
-// 			text-align: right;
-// 			color:white;
-// 			font-size: 23px;
-// 			font-family: $roboto;
-// 			font-weight: $normal;
-// 			font-size: 20px;
-// 	}
+	&.badass_text-small {
+			text-align: right;
+			color:white;
+			font-size: 23px;
+			font-family: $roboto;
+			font-weight: $normal;
+			font-size: 20px;
+	}
 
-// 	&.testimony_text_heading-1{
-// 		text-align: center;
-// 		text-transform: uppercase;
-// 		font-family: $oswald;
-// 		font-weight: $bold;
-// 		// font-size: 55px;
-// 	}
+	&.testimony_text_heading-1{
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $bold;
+		// font-size: 55px;
+	}
 
-// 	&.testimony_text_heading-1{
-// 		text-align: center;
-// 		text-transform: uppercase;
-// 		font-family: $oswald;
-// 		font-weight: $bold;
-// 		// font-size: 55px;
-// 	}
+	&.testimony_text_heading-1{
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $bold;
+		// font-size: 55px;
+	}
 
-// 	&.testimony_text_heading-2 {
-// 		text-align: center;
-// 		text-transform: uppercase;
-// 		font-family: $rokkitt;
-// 		font-weight: $bold;
-// 		//font-size: 46px;
-// 	}
+	&.testimony_text_heading-2 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $rokkitt;
+		font-weight: $bold;
+		//font-size: 46px;
+	}
 
-// 	&.foothero_line-title {
-// 		text-align: center;
-// 		text-transform: uppercase;
-// 		font-family: $oswald;
-// 		font-weight: $bold;
-// 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-// 		font-size: 6.9vw;
-// 	}
+	&.foothero_line-title {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $oswald;
+		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 6.9vw;
+	}
 
-// 	&.foothero_line-2 {
-// 		text-align: center;
-// 		text-transform: uppercase;
-// 		font-family: $rokkitt;
-// 		font-weight: $bold;
-// 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-// 		font-size: 6.2vw;
-// 	}
+	&.foothero_line-2 {
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $rokkitt;
+		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 6.2vw;
+	}
 
-// 	&.foothero_line-3 {
-// 		text-align: center;
-// 		font-family: $roboto;
-// 		font-weight: $normal;
-// 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-// 		font-size: 4.1vw;
-// 	}
+	&.foothero_line-3 {
+		text-align: center;
+		font-family: $roboto;
+		font-weight: $normal;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 4.1vw;
+	}
 
-// 	&.foothero_line-4 {
-// 		text-align: center;
-// 		font-family: $roboto;
-// 		font-weight: $bold;
-// 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-// 		font-size: 4vw;
-// 	}
-// }
+	&.foothero_line-4 {
+		text-align: center;
+		font-family: $roboto;
+		font-weight: $bold;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+		font-size: 4vw;
+	}
+}
 
 // p {
 

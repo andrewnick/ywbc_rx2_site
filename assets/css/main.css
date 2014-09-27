@@ -14,14 +14,14 @@
 }
  
 */
-/* line 2, C:/wamp/www/rx2/site/assets/scss/_slabtext.scss */
+/* line 2, ../scss/_slabtext.scss */
 .slabtexted .slabtext {
   display: -moz-inline-box;
   display: inline-block;
   white-space: nowrap;
 }
 
-/* line 8, C:/wamp/www/rx2/site/assets/scss/_slabtext.scss */
+/* line 8, ../scss/_slabtext.scss */
 .slabtextinactive .slabtext {
   display: inline;
   white-space: normal;
@@ -32,12 +32,28 @@
   *word-spacing: 0 !important;
 }
 
-/* line 18, C:/wamp/www/rx2/site/assets/scss/_slabtext.scss */
+/* line 18, ../scss/_slabtext.scss */
 .slabtextdone .slabtext {
   display: block;
 }
 
-/* line 19, C:/wamp/www/rx2/site/assets/scss/_text.scss */
+/* line 1, ../scss/_text.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 9, ../scss/_text.scss */
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+/* line 13, ../scss/_text.scss */
+h1.hero_text, h2.hero_text, h3.hero_text, h4.hero_text, h5.hero_text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 19, ../scss/_text.scss */
 h1 {
   color: white;
   font-family: "Oswald", sans-serif;
@@ -45,35 +61,110 @@ h1 {
   font-size: 26px;
 }
 @media screen and (min-width: 768px) {
-  /* line 19, C:/wamp/www/rx2/site/assets/scss/_text.scss */
+  /* line 19, ../scss/_text.scss */
   h1 {
     font-size: 97px;
   }
 }
+/* line 33, ../scss/_text.scss */
+h1.foothero_line-title-lg {
+  font-size: 6vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+  padding-bottom: 20vw;
+}
 
-/* line 1, C:/wamp/www/rx2/site/assets/scss/_foothero.scss */
+/* line 310, ../scss/_text.scss */
+span.badass_text-small {
+  text-align: right;
+  color: white;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* line 319, ../scss/_text.scss */
+span.testimony_text_heading-1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+/* line 327, ../scss/_text.scss */
+span.testimony_text_heading-1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+/* line 335, ../scss/_text.scss */
+span.testimony_text_heading-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Rokkitt", serif;
+  font-weight: 700;
+}
+/* line 343, ../scss/_text.scss */
+span.foothero_line-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+  font-size: 6.9vw;
+}
+/* line 352, ../scss/_text.scss */
+span.foothero_line-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Rokkitt", serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+  font-size: 6.2vw;
+}
+/* line 361, ../scss/_text.scss */
+span.foothero_line-3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 1px 0px black;
+  font-size: 4.1vw;
+}
+/* line 369, ../scss/_text.scss */
+span.foothero_line-4 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px black;
+  font-size: 4vw;
+}
+
+/* line 1, ../scss/_foothero.scss */
 .foothero_background {
   background: #000;
 }
 
-/* line 14, C:/wamp/www/rx2/site/assets/scss/_foothero.scss */
+/* line 14, ../scss/_foothero.scss */
 .footerhero_text_container-sm {
   padding-top: 91px;
 }
 
-/* line 18, C:/wamp/www/rx2/site/assets/scss/_foothero.scss */
+/* line 18, ../scss/_foothero.scss */
 .footerhero_text_container-lg {
   margin-top: 0px;
   padding-top: 18vw;
 }
 
-/* line 24, C:/wamp/www/rx2/site/assets/scss/_foothero.scss */
+/* line 24, ../scss/_foothero.scss */
 .foothero_img {
   padding-top: 21px;
   padding-bottom: 36px;
 }
 
-/* line 29, C:/wamp/www/rx2/site/assets/scss/_foothero.scss */
+/* line 29, ../scss/_foothero.scss */
 .foothero_container {
   width: 50%;
 }
