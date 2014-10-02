@@ -2,6 +2,7 @@
 		background-image: url("../images/mobile-home-1.png");
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center center;
 
 	@include respond ($tablet) {
 			background-image: url("../images/desktop_home_1.png");
@@ -9,8 +10,8 @@
 }
 
 .hero_container {
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 18vw;
+	padding-bottom: 18vw;
 }
 
 .hero_text_container {

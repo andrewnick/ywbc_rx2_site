@@ -2,8 +2,8 @@
 	<div class="testimony_container testimony_row container">
 		<div class="row">
 			<img src="assets/images/rx2_logo--black.png" alt="Logo" class="col-sm-offset-2 col-sm-2">
-			<div class=" block_text col-sm-6">
-				<h2 class="text_heading">
+			<div class="col-sm-6">
+				<h2 class="text_heading body_text">
 					<span class="testimony_text_heading-1 slabtext">Made for crossfitters</span>
 					<span class="testimony_text_heading-1 slabtext">by crossfitters</span>
 					<span class="testimony_text_heading-2 slabtext">Because we know</span>
@@ -27,10 +27,12 @@
 		</div>
 		<div class="row testimony_row">
 			<div class="col-sm-offset-2 col-sm-4">
-				<p class="testimony_text_body">“This gear has transformed my workout. Good looking, high quality and hassle free.”<br><span class="testimony_text_body_person">- Danielle, Auckland.</span></p>
+				<p class="testimony_text_body">“This gear has transformed my workout. Good looking, high quality
+				 and hassle free.”<br><span class="testimony_text_body_person">- Danielle, Auckland.</span></p>
 			</div>
 			<div class="col-sm-3">
-				<p class="testimony_text_body">“Rx2 is awesome! I can really focus on the workout in the knowledge my gear can hack it.”<br><span class="testimony_text_body_person">-Christopher, Christchurch.</span></p>
+				<p class="testimony_text_body">“Rx2 is awesome! I can really focus on the workout in the knowledge my 
+				gear can hack it.”<br><span class="testimony_text_body_person">-Christopher, Christchurch.</span></p>
 			</div>
 		</div>
 		<div class="row">
