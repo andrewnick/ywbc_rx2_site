@@ -365,6 +365,10 @@ span {
 		font-weight: $bold;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 	}
+
+	&.testimony_text_body_person {
+			font-size: 15px;
+	}
 }
 
 p {
@@ -421,10 +425,7 @@ p {
 		font-family: $roboto;
 		font-size: 18px;
 		text-align: center;
-
-		&.testimony_text_body_person {
-			font-size: 15px;
-		}
+		margin-top: 20px;
 	}
 
 	&.badass_text {

@@ -8663,8 +8663,12 @@ span.foothero_line-4 {
   font-weight: 700;
   text-shadow: 1px 1px 0px black;
 }
+/* line 369, ../scss/_text.scss */
+span.testimony_text_body_person {
+  font-size: 15px;
+}
 
-/* line 370, ../scss/_text.scss */
+/* line 374, ../scss/_text.scss */
 p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -8672,25 +8676,25 @@ p {
   font-size: 13px;
   text-align: center;
 }
-/* line 379, ../scss/_text.scss */
+/* line 383, ../scss/_text.scss */
 p.contact_text {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
-/* line 385, ../scss/_text.scss */
+/* line 389, ../scss/_text.scss */
 p.contact_label {
   font-size: 14px;
   font-weight: 700;
   text-align: left;
   line-height: 51px;
 }
-/* line 391, ../scss/_text.scss */
+/* line 395, ../scss/_text.scss */
 p.contact_label.contact_label-email {
   line-height: 1.1;
 }
 @media screen and (min-width: 768px) {
-  /* line 396, ../scss/_text.scss */
+  /* line 400, ../scss/_text.scss */
   p.intro_text {
     color: black;
     font-family: "Roboto", sans-serif;
@@ -8698,7 +8702,7 @@ p.contact_label.contact_label-email {
     font-size: 23px;
   }
 }
-/* line 407, ../scss/_text.scss */
+/* line 411, ../scss/_text.scss */
 p.footer_reference {
   color: white;
   text-align: center;
@@ -8707,63 +8711,60 @@ p.footer_reference {
   font-size: 13px;
 }
 @media screen and (min-width: 768px) {
-  /* line 407, ../scss/_text.scss */
+  /* line 411, ../scss/_text.scss */
   p.footer_reference {
     margin-top: 63px;
   }
 }
-/* line 419, ../scss/_text.scss */
+/* line 423, ../scss/_text.scss */
 p.testimony_text_body {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
+  margin-top: 20px;
 }
-/* line 425, ../scss/_text.scss */
-p.testimony_text_body.testimony_text_body_person {
-  font-size: 15px;
-}
-/* line 430, ../scss/_text.scss */
+/* line 431, ../scss/_text.scss */
 p.badass_text {
   text-align: right;
   font-weight: 400;
   font-size: 20px;
 }
-/* line 436, ../scss/_text.scss */
+/* line 437, ../scss/_text.scss */
 p.comfort_blurb {
   text-align: left;
   font-size: 15px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
-/* line 442, ../scss/_text.scss */
+/* line 443, ../scss/_text.scss */
 p.comfort_blurb.comfort_blurb_expanded {
   font-family: roboto;
   font-weight: 300;
   padding-top: 25px;
 }
-/* line 448, ../scss/_text.scss */
+/* line 449, ../scss/_text.scss */
 p.comfort_blurb.durability_text {
   text-align: right;
 }
-/* line 453, ../scss/_text.scss */
+/* line 454, ../scss/_text.scss */
 p.shoeDesc_blurb {
   font-weight: 400;
   font-size: 24px;
   text-align: left;
 }
-/* line 459, ../scss/_text.scss */
+/* line 460, ../scss/_text.scss */
 p.shoe_detail_desc {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
 }
-/* line 465, ../scss/_text.scss */
+/* line 466, ../scss/_text.scss */
 p.contact_twitterFeed_text {
   text-align: left;
 }
 
-/* line 476, ../scss/_text.scss */
+/* line 477, ../scss/_text.scss */
 a {
   margin-top: 16px;
   color: white;
@@ -8771,23 +8772,23 @@ a {
   font-weight: 300;
   font-size: 16px;
 }
-/* line 484, ../scss/_text.scss */
+/* line 485, ../scss/_text.scss */
 a.nav_item_text_footer {
   margin-top: -5px;
   font-size: 22px;
 }
 @media screen and (min-width: 768px) {
-  /* line 476, ../scss/_text.scss */
+  /* line 477, ../scss/_text.scss */
   a {
     margin-top: 27px;
     font-weight: 300;
     font-size: 36.53px;
   }
-  /* line 494, ../scss/_text.scss */
+  /* line 495, ../scss/_text.scss */
   a.nav_item_text_footer {
     font-size: 22px;
   }
-  /* line 499, ../scss/_text.scss */
+  /* line 500, ../scss/_text.scss */
   a.contact_email {
     margin-top: 5px;
     font-family: "Roboto", sans-serif;
@@ -8797,7 +8798,7 @@ a.nav_item_text_footer {
   }
 }
 
-/* line 509, ../scss/_text.scss */
+/* line 510, ../scss/_text.scss */
 .text_lightbg {
   color: #666666;
 }
@@ -8859,8 +8860,8 @@ a.nav_item_text_footer {
 
 /* line 19, ../scss/_intro.scss */
 .intro_container {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 /* line 1, ../scss/_product.scss */
@@ -8879,6 +8880,12 @@ a.nav_item_text_footer {
   }
 }
 
+/* line 15, ../scss/_product.scss */
+.product_container {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
 /* line 1, ../scss/_durability.scss */
 .durability_background {
   background-image: url("../images/desktop_home_4.png");
@@ -8895,8 +8902,8 @@ a.nav_item_text_footer {
 /* line 12, ../scss/_durability.scss */
 .durability_container {
   padding-right: 48px;
-  padding-top: 108px;
-  padding-bottom: 138px;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 /* line 1, ../scss/_contact.scss */
@@ -8973,23 +8980,12 @@ a.nav_item_text_footer {
 
 /* line 7, ../scss/_testimony.scss */
 .testimony_container {
-  padding-left: 78px;
+  padding-top: 5vw;
 }
 
-/* line 11, ../scss/_testimony.scss */
+/* line 13, ../scss/_testimony.scss */
 .testimony_row {
-  padding-top: 77px;
-}
-
-/* line 15, ../scss/_testimony.scss */
-.testimony_btn {
-  padding-top: 18px;
-  margin: 0 auto;
-}
-
-/* line 21, ../scss/_testimony.scss */
-.text_heading {
-  height: 300px;
+  padding-top: 2vw;
 }
 
 /* line 1, ../scss/_badass.scss */
@@ -8997,21 +8993,22 @@ a.nav_item_text_footer {
   background-image: url("../images/desktop_home_6.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
-/* line 7, ../scss/_badass.scss */
+/* line 8, ../scss/_badass.scss */
 .badass_container {
   padding-top: 177px;
   padding-bottom: 162px;
   padding-left: 33px;
 }
 
-/* line 13, ../scss/_badass.scss */
+/* line 14, ../scss/_badass.scss */
 .badass_text-right {
   padding-left: 48px;
 }
 
-/* line 17, ../scss/_badass.scss */
+/* line 18, ../scss/_badass.scss */
 .badass_text-left {
   margin-top: 20px;
 }
@@ -9026,8 +9023,8 @@ a.nav_item_text_footer {
 /* line 7, ../scss/_comfort.scss */
 .comfort_container {
   padding-left: 48px;
-  padding-top: 108px;
-  padding-bottom: 138px;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 /* line 1, ../scss/_foothero.scss */
